@@ -2,7 +2,7 @@ import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 
 const config = {
   // Global configuration
-  defaultChainId: ChainId.ETHEREUM,
+  defaultChainId: ChainId.GODWOKEN,
   blockedAddresses: [
     // SDN OFAC addresses
     '0x7F367cC41522cE07553e823bf3be79A889DEbe1B',

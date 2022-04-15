@@ -33,22 +33,23 @@ export const getCurrencyLogoUrls = (currency: Currency): string[] => {
   if (currency.chainId in BLOCKCHAIN) {
     urls.push(
       // @ts-ignore TYPE NEEDS FIXING
-      `https://raw.githubusercontent.com/sushiswap/logos/main/network/${BLOCKCHAIN[currency.chainId]}/${
+      `https://raw.githubusercontent.com/dezzyboy/logos/main/network/${BLOCKCHAIN[currency.chainId]}/${
         currency.wrapped.address
       }.jpg`
     )
     urls.push(
       // @ts-ignore TYPE NEEDS FIXING
-      `https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
+      `https://raw.githubusercontent.com/dezzyboy/assets/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
         currency.wrapped.address
       }/logo.png`
     )
     urls.push(
       // @ts-ignore TYPE NEEDS FIXING
-      `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
+      `https://raw.githubusercontent.com/dezzyboy/assets/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
         currency.wrapped.address
       }/logo.png`
     )
+    urls.push(``)
   }
   return urls
 }

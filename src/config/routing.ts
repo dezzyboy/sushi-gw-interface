@@ -426,9 +426,9 @@ export const COMMON_BASES: ChainTokenList = {
     // // @ts-ignore TYPE NEEDS FIXING
     // GODWOKEN.MIM,
     // // @ts-ignore TYPE NEEDS FIXING
-    // GODWOKEN.SPELL,
+    GODWOKEN.JIO,
     // // @ts-ignore TYPE NEEDS FIXING
-    // GODWOKEN.ICE,
+    GODWOKEN.DAI,
     // @ts-ignore TYPE NEEDS FIXING
     GODWOKEN.USDC,
     // @ts-ignore TYPE NEEDS FIXING
