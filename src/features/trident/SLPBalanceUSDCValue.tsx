@@ -1,5 +1,5 @@
 import { CurrencyAmount, Token, USDC } from '@dezzyboy/sushiswap-core-sdk'
-import { ConstantProductPool } from '@sushiswap/trident-sdk'
+import { ConstantProductPool } from '@dezzyboy/trident-sdk'
 import { useTotalSupply } from 'app/hooks/useTotalSupply'
 import { useUSDCValue } from 'app/hooks/useUSDCPrice'
 import { useActiveWeb3React } from 'app/services/web3'

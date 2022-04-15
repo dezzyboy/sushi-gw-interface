@@ -1,7 +1,7 @@
+import { Currency, CurrencyAmount, ZERO } from '@dezzyboy/sushiswap-core-sdk'
+import { PoolState } from '@dezzyboy/trident-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, ZERO } from '@dezzyboy/sushiswap-core-sdk'
-import { PoolState } from '@sushiswap/trident-sdk'
 import {
   selectAddNormalInput,
   selectAddSpendFromWallet,

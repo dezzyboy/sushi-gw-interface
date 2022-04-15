@@ -1,6 +1,6 @@
+import { Fee, PoolType } from '@dezzyboy/trident-sdk'
 import { Signature } from '@ethersproject/bytes'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { Fee, PoolType } from '@sushiswap/trident-sdk'
 import { AppState } from 'app/state'
 
 import { SelectedAsset } from './SelectedAsset'
