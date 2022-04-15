@@ -1,6 +1,6 @@
 import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import { getVersionUpgrade, minVersionBump, VersionUpgrade } from '@uniswap/token-lists'
-import { ARBITRUM_LIST, UNSUPPORTED_LIST_URLS } from 'app/config/token-lists'
+import { GODWOKEN_LIST, UNSUPPORTED_LIST_URLS } from 'app/config/token-lists'
 import { useFetchListCallback } from 'app/hooks/useFetchListCallback'
 import useInterval from 'app/hooks/useInterval'
 import useIsWindowVisible from 'app/hooks/useIsWindowVisible'
@@ -29,8 +29,8 @@ export default function Updater(): null {
   }, [fetchList, isWindowVisible, lists])
 
   useEffect(() => {
-    if (chainId && chainId === ChainId.ARBITRUM_TESTNET) {
-      dispatch(enableList(ARBITRUM_LIST))
+    if (chainId && chainId === ChainId.GODWOKEN) {
+      dispatch(enableList(GODWOKEN_LIST))
     }
   }, [chainId, dispatch])
   // fetch all lists every 10 minutes, but only after we initialize library

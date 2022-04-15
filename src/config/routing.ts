@@ -1,13 +1,13 @@
 // a list of tokens by chain
 import { ChainId, SUSHI, Token, WNATIVE } from '@dezzyboy/sushiswap-core-sdk'
 
-import * as GODWOKEN from './tokens/arbitrum'
 import * as AVALANCHE from './tokens/avalanche'
 import * as BSC from './tokens/bsc'
 import * as CELO from './tokens/celo'
 import * as ETHEREUM from './tokens/ethereum'
 import * as FANTOM from './tokens/fantom'
 import * as FUSE from './tokens/fuse'
+import * as GODWOKEN from './tokens/godwoken'
 import * as HARMONY from './tokens/harmony'
 import * as HECO from './tokens/heco'
 import * as MATIC from './tokens/matic'
@@ -426,9 +426,9 @@ export const COMMON_BASES: ChainTokenList = {
     // // @ts-ignore TYPE NEEDS FIXING
     // GODWOKEN.MIM,
     // // @ts-ignore TYPE NEEDS FIXING
-    // GODWOKEN.SPELL,
+    GODWOKEN.JIO,
     // // @ts-ignore TYPE NEEDS FIXING
-    // GODWOKEN.ICE,
+    GODWOKEN.DAI,
     // @ts-ignore TYPE NEEDS FIXING
     GODWOKEN.USDC,
     // @ts-ignore TYPE NEEDS FIXING
