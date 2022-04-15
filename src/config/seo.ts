@@ -1,15 +1,15 @@
 const SEO = {
-  defaultTitle: 'Sushi',
-  titleTemplate: '%s | Sushi',
+  defaultTitle: 'JioDex',
+  titleTemplate: '%s | JioDex',
   description: 'Swap, yield, lend, borrow, leverage, limit, launch all on one community driven ecosystem',
   openGraph: {
     type: 'website',
-    url: 'https://app.sushi.com/',
-    site_name: 'Sushi',
+    url: 'https://sushi-gw-interface.vercel.app/',
+    site_name: 'JioDex',
   },
   twitter: {
-    handle: '@SushiSwap',
-    site: '@SushiSwap',
+    handle: '@Jioswap',
+    site: '@Jioswap',
     cardType: 'summary_large_image',
   },
 }
