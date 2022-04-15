@@ -46,7 +46,7 @@ export default function AnalyticsContainer({ children }): JSX.Element {
   return (
     <div className="relative w-full">
       <Head>
-        <title>Sushi Analytics | Sushi</title>
+        <title>Jio Analytics | Jio</title>
         <meta name="description" content="SushiSwap Liquidity Pair (SLP) Analytics by Sushi" />
       </Head>
       <Container id="analytics" maxWidth="7xl" className="mx-auto">

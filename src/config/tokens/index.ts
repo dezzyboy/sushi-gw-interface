@@ -1,5 +1,5 @@
 export * from './ethereum'
-export * as ARBITRUM_TOKENS from './godwoken'
+export * as GODWOKEN_TOKENS from './godwoken'
 export * as MATIC_TOKENS from './matic'
 // export * as MOONBEAM_TOKENS from './moonbeam'
 export * as XDAI_TOKENS from './xdai'
