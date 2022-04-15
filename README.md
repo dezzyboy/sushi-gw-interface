@@ -1,4 +1,4 @@
-# SUSHI
+#  Sushiswap ported over to GodwokenV1 chain.
 
 ```
                                       ████████████████                                          
@@ -29,4 +29,3 @@
                                                             ████▒▒▒▒▒▒▒▒████                    
                                                                 ████████                        
 ```
- Sushiswap ported over to GodwokenV1 chain.
