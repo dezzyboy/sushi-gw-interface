@@ -1,5 +1,5 @@
 import { Currency, Trade as V2Trade, TradeType, TradeVersion } from '@dezzyboy/sushiswap-core-sdk'
-import { Trade as V3Trade } from '@sushiswap/trident-sdk'
+import { Trade as V3Trade } from '@dezzyboy/trident-sdk'
 
 export function getTradeVersion(
   trade?: V2Trade<Currency, Currency, TradeType> | V3Trade<Currency, Currency, TradeType>

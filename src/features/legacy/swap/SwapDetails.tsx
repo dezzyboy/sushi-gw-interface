@@ -1,7 +1,3 @@
-import { Disclosure, Transition } from '@headlessui/react'
-import { ChevronDownIcon, ExternalLinkIcon } from '@heroicons/react/outline'
-import { t } from '@lingui/macro'
-import { useLingui } from '@lingui/react'
 import {
   Currency,
   CurrencyAmount,
@@ -10,7 +6,11 @@ import {
   Trade as LegacyTrade,
   TradeVersion,
 } from '@dezzyboy/sushiswap-core-sdk'
-import { Trade as TridentTrade } from '@sushiswap/trident-sdk'
+import { Trade as TridentTrade } from '@dezzyboy/trident-sdk'
+import { Disclosure, Transition } from '@headlessui/react'
+import { ChevronDownIcon, ExternalLinkIcon } from '@heroicons/react/outline'
+import { t } from '@lingui/macro'
+import { useLingui } from '@lingui/react'
 import Chip from 'app/components/Chip'
 import Typography from 'app/components/Typography'
 import TradePrice from 'app/features/legacy/swap/TradePrice'

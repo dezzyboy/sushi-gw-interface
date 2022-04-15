@@ -1,4 +1,3 @@
-import { BigNumber } from '@ethersproject/bignumber'
 import {
   ChainId,
   Currency,
@@ -20,7 +19,8 @@ import {
   PoolState,
   RouteStatus,
   Trade,
-} from '@sushiswap/trident-sdk'
+} from '@dezzyboy/trident-sdk'
+import { BigNumber } from '@ethersproject/bignumber'
 import { PoolUnion } from 'app/features/trident/types'
 import { toAmountJSBI, toShareCurrencyAmount } from 'app/functions'
 import { useBentoRebase } from 'app/hooks/useBentoRebases'

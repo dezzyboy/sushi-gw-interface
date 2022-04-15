@@ -1,5 +1,5 @@
 import { Price, Token } from '@dezzyboy/sushiswap-core-sdk'
-import { ILimitOrderData, LimitOrder, OrderStatus } from '@sushiswap/limit-order-sdk'
+import { ILimitOrderData, LimitOrder, OrderStatus } from '@dezzyboy/sushiswap-limit-order-sdk'
 
 export interface LimitOrdersResponse {
   pendingOrders: PendingOrders

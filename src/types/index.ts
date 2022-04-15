@@ -1,6 +1,6 @@
-import { BigNumber } from '@ethersproject/bignumber'
 import { Currency, CurrencyAmount, Token, Trade as LegacyTrade, TradeType } from '@dezzyboy/sushiswap-core-sdk'
-import { PoolState, Trade } from '@sushiswap/trident-sdk'
+import { PoolState, Trade } from '@dezzyboy/trident-sdk'
+import { BigNumber } from '@ethersproject/bignumber'
 
 export type TradeUnion =
   | Trade<Currency, Currency, TradeType.EXACT_INPUT | TradeType.EXACT_OUTPUT>

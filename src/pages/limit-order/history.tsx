@@ -1,6 +1,6 @@
+import { STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/sushiswap-limit-order-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { STOP_LIMIT_ORDER_ADDRESS } from '@sushiswap/limit-order-sdk'
 import Typography from 'app/components/Typography'
 import { Feature } from 'app/enums'
 import CompletedOrders from 'app/features/legacy/limit-order/CompletedOrders'

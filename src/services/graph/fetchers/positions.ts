@@ -1,5 +1,5 @@
 import { ChainId, Token } from '@dezzyboy/sushiswap-core-sdk'
-import { PoolType } from '@sushiswap/trident-sdk'
+import { PoolType } from '@dezzyboy/trident-sdk'
 import { fetcher, TridentPoolData } from 'app/services/graph'
 import { getTridentPositionsQuery } from 'app/services/graph/queries'
 
