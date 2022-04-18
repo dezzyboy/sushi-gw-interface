@@ -1289,10 +1289,10 @@
   dependencies:
     "@dezzyboy/sushiswap-core-sdk" "^1.0.0-canary.93"
 
-"@dezzyboy/sushiswap-core-sdk@^1.0.0-canary.93":
-  version "1.0.0-canary.93"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-core-sdk/-/sushiswap-core-sdk-1.0.0-canary.93.tgz#9c508cdae6c42d5e52bb61c1fc1a6cab7393bc10"
-  integrity sha512-V6Bpxn1MNvfssnGWCmUb01q7/lXv83yRpdzB3Lrh+INcJlo2vhgA0TlTdA4SlecDTA2/MdcOKYjXXA9+sBmKGQ==
+"@dezzyboy/sushiswap-core-sdk@^1.0.0-canary.93", "@dezzyboy/sushiswap-core-sdk@^1.0.0-canary.94":
+  version "1.0.0-canary.94"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-core-sdk/-/sushiswap-core-sdk-1.0.0-canary.94.tgz#6c42295854cee570ca488ebc28a583ade48afafc"
+  integrity sha512-synhDfgF9EBqftFGtMc4qDfXJ91QnW8QL5gfD6BOw6qU1e9stJO3Ocbge9JtPDEvsDrPwNRZAslGPxJ0N6BY6Q==
   dependencies:
     "@ethersproject/address" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
@@ -1586,7 +1586,7 @@
   dependencies:
     "@ethersproject/logger" "^5.6.0"
 
-"@ethersproject/providers@5.6.2", "@ethersproject/providers@^5", "@ethersproject/providers@^5.4.0", "@ethersproject/providers@^5.4.5":
+"@ethersproject/providers@5.6.2":
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/@ethersproject/providers/-/providers-5.6.2.tgz#b9807b1c8c6f59fa2ee4b3cf6519724d07a9f422"
   integrity sha512-6/EaFW/hNWz+224FXwl8+HdMRzVHt8DpPmu5MZaIQqx/K/ELnC9eY236SMV7mleCM3NnEArFwcAAxH5kUUgaRg==
@@ -1611,7 +1611,7 @@
     bech32 "1.1.4"
     ws "7.4.6"
 
-"@ethersproject/providers@^5.6.4":
+"@ethersproject/providers@^5", "@ethersproject/providers@^5.4.0", "@ethersproject/providers@^5.4.5", "@ethersproject/providers@^5.6.4":
   version "5.6.4"
   resolved "https://registry.yarnpkg.com/@ethersproject/providers/-/providers-5.6.4.tgz#1a49c211b57b0b2703c320819abbbfa35c83dff7"
   integrity sha512-WAdknnaZ52hpHV3qPiJmKx401BLpup47h36Axxgre9zT+doa/4GC/Ne48ICPxTm0BqndpToHjpLP1ZnaxyE+vw==
