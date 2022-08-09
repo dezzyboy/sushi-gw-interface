@@ -12,7 +12,7 @@ const SUBDOMAIN_CHAIN_ID: { [subdomain: string]: string } = {
   [ChainSubdomain.BSC]: '56',
   [ChainSubdomain.FANTOM]: '250',
   [ChainSubdomain.GNOSIS]: '100',
-  [ChainSubdomain.GODWOKEN]: '868455272153094',
+  [ChainSubdomain.GODWOKEN]: '71401', // 71401 71401
   [ChainSubdomain.AVALANCHE]: '43114',
   [ChainSubdomain.HECO]: '128',
   [ChainSubdomain.HARMONY]: '1666600000',

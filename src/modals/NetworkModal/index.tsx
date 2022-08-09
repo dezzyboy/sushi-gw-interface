@@ -1,6 +1,6 @@
+import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import HeadlessUiModal from 'app/components/Modal/HeadlessUIModal'
 import Typography from 'app/components/Typography'
 import { NETWORK_ICON, NETWORK_LABEL } from 'app/config/networks'
@@ -174,15 +174,15 @@ export const SUPPORTED_NETWORKS: Record<
     blockExplorerUrls: ['https://www.oklink.com/okexchain'],
   },
   [ChainId.GODWOKEN]: {
-    chainId: '0x315DB00000006',
+    chainId: '0x116e9',
     chainName: 'Godwoken',
     nativeCurrency: {
-      name: 'Ethereum',
-      symbol: 'ckETH',
+      name: 'Nervos CKB',
+      symbol: 'pCKB',
       decimals: 18,
     },
-    rpcUrls: ['https://godwoken-testnet-web3-v1-rpc.ckbapp.dev'],
-    blockExplorerUrls: ['https://v1.aggron.gwscan.com'],
+    rpcUrls: ['https://godwoken-testnet-v1.ckbapp.dev'],
+    blockExplorerUrls: ['https://gw-explorer.nervosdao.community'],
   },
   [ChainId.CELO]: {
     chainId: '0xA4EC',

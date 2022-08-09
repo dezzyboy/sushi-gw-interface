@@ -45,7 +45,7 @@ const Footer = () => {
               <a href="https://instagram.com/jioswap" target="_blank" rel="noreferrer">
                 <InstagramIcon width={16} className="text-low-emphesis" />
               </a>
-              <a href="https://medium.com/jioswap" target="_blank" rel="noreferrer">
+              <a href="https://jioswap.medium.com" target="_blank" rel="noreferrer">
                 <MediumIcon width={16} className="text-low-emphesis" />
               </a>
               <a href="#" target="_blank" rel="noreferrer">

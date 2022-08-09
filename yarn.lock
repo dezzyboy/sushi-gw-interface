@@ -1305,6 +1305,22 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
+"@dezzyboy/sushiswap-core-sdk@^1.0.0-canary.95":
+  version "1.0.1-canary.95"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-core-sdk/-/sushiswap-core-sdk-1.0.1-canary.95.tgz#44bf922f8f50ab05e33db8bd115834b3cecaba0f"
+  integrity sha512-lXR6qjfET1vzyyY3Ri/habatjzghfX8q+q/2EzlkAbU7Ini62sq+C4rmpp4n8m9vUgBdXCAAwAtZdj//XFSy+g==
+  dependencies:
+    "@ethersproject/address" "^5.4.0"
+    "@ethersproject/bignumber" "^5.4.0"
+    "@ethersproject/providers" "^5.4.0"
+    "@ethersproject/solidity" "^5.4.0"
+    big.js "^6.1.1"
+    decimal.js-light "^2.5.0"
+    jsbi "^4.1.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.0"
+    toformat "^2.0.0"
+
 "@dezzyboy/sushiswap-kashi-sdk@^1.0.0-canary.68":
   version "1.0.0-canary.68"
   resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-kashi-sdk/-/sushiswap-kashi-sdk-1.0.0-canary.68.tgz#a693b449197ce2c1694223c750ca9cbf77e000ac"

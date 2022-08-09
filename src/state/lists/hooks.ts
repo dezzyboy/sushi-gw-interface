@@ -66,7 +66,7 @@ function combineMaps(map1: TokenAddressMap, map2: TokenAddressMap): TokenAddress
     100: { ...map1[100], ...map2[100] }, // xdai
     56: { ...map1[56], ...map2[56] }, // bsc
     97: { ...map1[97], ...map2[97] }, // bsc testnet
-    868455272153094: { ...map1[868455272153094], ...map2[868455272153094] }, // godwoken
+    71401: { ...map1[71401], ...map2[71401] }, // godwoken
     79377087078960: { ...map1[79377087078960], ...map2[79377087078960] }, // arbitrum testnet
     1287: { ...map1[1287], ...map2[1287] }, // moonbase
     128: { ...map1[128], ...map2[128] }, // heco

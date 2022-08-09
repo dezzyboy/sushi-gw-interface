@@ -24,7 +24,7 @@ const RPC = {
   [ChainId.HARMONY_TESTNET]: 'https://api.s0.b.hmny.io',
   [ChainId.OKEX]: 'https://exchainrpc.okex.org',
   [ChainId.OKEX_TESTNET]: 'https://exchaintestrpc.okex.org',
-  [ChainId.GODWOKEN]: 'https://godwoken-testnet-web3-v1-rpc.ckbapp.dev',
+  [ChainId.GODWOKEN]: 'https://godwoken-testnet-v1.ckbapp.dev',
   [ChainId.PALM]: 'https://palm-mainnet.infura.io/v3/da5fbfafcca14b109e2665290681e267',
   [ChainId.FUSE]: 'https://rpc.fuse.io',
   [ChainId.CELO]: 'https://forno.celo.org',

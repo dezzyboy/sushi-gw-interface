@@ -1,13 +1,13 @@
 import { ChainId, Token } from '@dezzyboy/sushiswap-core-sdk'
 
-export const USDC = new Token(ChainId.GODWOKEN, '0x5f774D8713fF0e5E3579496e4c41b8fd8Be9a2B6', 18, 'USDC', 'USD Coin')
+export const USDC = new Token(ChainId.GODWOKEN, '0x11A3893836e2D723E0326457E5e9E2466281FEE5', 18, 'USDC', 'USD Coin')
 
-export const USDT = new Token(ChainId.GODWOKEN, '0xFF77EBB2981dCB46590D383C87f40811259CAC70', 18, 'USDT', 'Tether USD')
+export const USDT = new Token(ChainId.GODWOKEN, '0xA2a85cB98bF8ad7B8CA510bc998F8D15a1aeD46d', 18, 'USDT', 'Tether USD')
 export const DAI = new Token(
   ChainId.GODWOKEN,
-  '0xBCa5910433f509Ac834d7b51a2A94F30c29aB056',
+  '0x8aab5FE56f0aD4500BD8e3aE1Fc84ec4c634fE4C',
   18,
   'DAI',
   'Dai Stablecoin'
 )
-export const JIO = new Token(ChainId.GODWOKEN, '0x7397A6156320756b3Af250D191893C7FF89673A4', 18, 'JIO', 'Jioswap Dao')
+export const JIO = new Token(ChainId.GODWOKEN, '0xb5727223892A38d2Ef7Ca7365dcaC9970A63E82e', 18, 'JIO', 'Jioswap Dao')
