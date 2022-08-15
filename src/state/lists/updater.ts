@@ -1,6 +1,6 @@
 import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { getVersionUpgrade, minVersionBump, VersionUpgrade } from '@uniswap/token-lists'
-import { GODWOKEN_LIST_2, UNSUPPORTED_LIST_URLS } from 'app/config/token-lists'
+import { GODWOKEN_LIST2, UNSUPPORTED_LIST_URLS } from 'app/config/token-lists'
 import { useFetchListCallback } from 'app/hooks/useFetchListCallback'
 import useInterval from 'app/hooks/useInterval'
 import useIsWindowVisible from 'app/hooks/useIsWindowVisible'
@@ -30,7 +30,7 @@ export default function Updater(): null {
 
   useEffect(() => {
     if (chainId && chainId === ChainId.GODWOKEN) {
-      dispatch(enableList(GODWOKEN_LIST_2))
+      dispatch(enableList(GODWOKEN_LIST2))
     }
   }, [chainId, dispatch])
   // fetch all lists every 10 minutes, but only after we initialize library

@@ -182,7 +182,7 @@ export const SUPPORTED_NETWORKS: Record<
       decimals: 18,
     },
     rpcUrls: ['https://v1.mainnet.godwoken.io/rpc'],
-    blockExplorerUrls: ['https://v1.gwscan.com/'],
+    blockExplorerUrls: ['https://v1.gwscan.com'],
   },
   [ChainId.CELO]: {
     chainId: '0xA4EC',
