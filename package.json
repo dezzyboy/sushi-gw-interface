@@ -46,7 +46,7 @@
     "@davatar/react": "^1.9.0",
     "@dezzyboy/jiodex-bentobox-sdk": "0.0.1-gwtestnet-v1",
     "@dezzyboy/jiodex-core-sdk": "0.0.1-gwtestnet-v1",
-    "@dezzyboy/jiodex-kashi-sdk": "0.0.1-gwtestnet-v1",
+    "@dezzyboy/jiodex-kashi-sdk": "0.0.2-gwtestnet-v1",
     "@dezzyboy/jiodex-limit-order-sdk": "0.0.1-gwtestnet-v1",
     "@dezzyboy/trident-sdk": "0.0.1-gwtestnet-v1",
     "@ethereumjs/common": "^2.4.0",
