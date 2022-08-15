@@ -12,7 +12,7 @@ const SUBDOMAIN_CHAIN_ID: { [subdomain: string]: string } = {
   [ChainSubdomain.BSC]: '56',
   [ChainSubdomain.FANTOM]: '250',
   [ChainSubdomain.GNOSIS]: '100',
-  [ChainSubdomain.GODWOKEN]: '71401', // 71401 71401
+  [ChainSubdomain.GODWOKEN]: '71402', // 71401 71401
   [ChainSubdomain.AVALANCHE]: '43114',
   [ChainSubdomain.HECO]: '128',
   [ChainSubdomain.HARMONY]: '1666600000',
@@ -25,7 +25,7 @@ const SUBDOMAIN_CHAIN_ID: { [subdomain: string]: string } = {
   // [ChainSubdomain.MOONBEAM]: '1284',
 }
 
-const DEFAULT_CHAIN_ID = '71401'
+const DEFAULT_CHAIN_ID = '71402'
 
 export function middleware(req: NextRequest) {
   // const response = NextResponse.next()

@@ -142,7 +142,7 @@ const chains: ChainObject = {
     builder: explorers.etherscan,
   },
   [ChainId.GODWOKEN]: {
-    link: 'https://gw-explorer.nervosdao.community',
+    link: 'https://v1.gwscan.com/',
     builder: explorers.etherscan,
   },
   [ChainId.MOONBEAM_TESTNET]: {

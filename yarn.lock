@@ -1282,17 +1282,17 @@
     mersenne-twister "^1.1.0"
     react-blockies "^1.4.1"
 
-"@dezzyboy/jiodex-bentobox-sdk@0.0.1-gwtestnet-v1":
-  version "0.0.1-gwtestnet-v1"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-bentobox-sdk/-/jiodex-bentobox-sdk-0.0.1-gwtestnet-v1.tgz#5fac91c7eab23da2f533e2572c79ab2c8694c01f"
-  integrity sha512-Ty1mur206c0MkYrMJsrD3JpGCAUcFIgBbhvZJg2fYlr5ivfAJwUlAmJw8rL7u58nX80k+DpHLaRpas8bblYT7g==
+"@dezzyboy/jiodex-bentobox-sdk@0.0.1-gwmainnet-v1":
+  version "0.0.1-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-bentobox-sdk/-/jiodex-bentobox-sdk-0.0.1-gwmainnet-v1.tgz#2ffcdc16ec02d104fb371a101522a3c8d1c87e9b"
+  integrity sha512-6DHzKAQHn3jZ2Yb+DiuwepYT9NPTMYbUaxrvEGQVb+IolLbhKA9oNuJVGQrZwtfjL4FntaXxFxTp8rVfHqdoWw==
   dependencies:
-    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwtestnet-v1"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwmainnet-v1"
 
-"@dezzyboy/jiodex-core-sdk@0.0.1-gwtestnet-v1":
-  version "0.0.1-gwtestnet-v1"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-core-sdk/-/jiodex-core-sdk-0.0.1-gwtestnet-v1.tgz#a4c9beee5316625718df73cc5f30e4c543920138"
-  integrity sha512-0tw8hcg5pyDaymJxJvKX+Kkyuk2pmze9iQZVWHBmms/4MtMyCbVdzRivVhzaLUFoDCI0R10nIqY7POATeYr4yg==
+"@dezzyboy/jiodex-core-sdk@0.0.1-gwmainnet-v1":
+  version "0.0.1-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-core-sdk/-/jiodex-core-sdk-0.0.1-gwmainnet-v1.tgz#e372a2c1ef1a82aeabd60b377057f2bdefa921ae"
+  integrity sha512-PV4EbTFG7iU6T3qP7UkBb6Fqedjv7KTAhxGYCM1WWA2xxr3UcTHWagLWApD8berisXhVEN8Gg2FKSphViMwVhA==
   dependencies:
     "@ethersproject/address" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
@@ -1305,24 +1305,40 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
-"@dezzyboy/jiodex-kashi-sdk@0.0.2-gwtestnet-v1":
-  version "0.0.2-gwtestnet-v1"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-kashi-sdk/-/jiodex-kashi-sdk-0.0.2-gwtestnet-v1.tgz#4711210a8493b5aa05a6ae8260ae94f90bde3399"
-  integrity sha512-2S2M9IRKiQZFsIMrunHZz3PBGaNYAy6Z094fvkdQWiIVWHCFnl3z/tZ+vmSf1EMIWKQ8N+yVmQekUnfpeYy82A==
+"@dezzyboy/jiodex-core-sdk@0.0.2-gwmainnet-v1":
+  version "0.0.2-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-core-sdk/-/jiodex-core-sdk-0.0.2-gwmainnet-v1.tgz#1f8a0dc128fac857e2fbb1ac75dbba3d14a70935"
+  integrity sha512-1Gu083tHDi4qslBQ/wMhaAOC9lNkbtSG2+29++JlU4IqHPw4Dnu3iZW4r+D418Nm9hb1iI+NQYZL71k457vpQQ==
   dependencies:
-    "@dezzyboy/jiodex-bentobox-sdk" "0.0.1-gwtestnet-v1"
-    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwtestnet-v1"
+    "@ethersproject/address" "^5.4.0"
+    "@ethersproject/bignumber" "^5.4.0"
+    "@ethersproject/providers" "^5.4.0"
+    "@ethersproject/solidity" "^5.4.0"
+    big.js "^6.1.1"
+    decimal.js-light "^2.5.0"
+    jsbi "^4.1.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.0"
+    toformat "^2.0.0"
+
+"@dezzyboy/jiodex-kashi-sdk@0.0.1-gwmainnet-v1":
+  version "0.0.1-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-kashi-sdk/-/jiodex-kashi-sdk-0.0.1-gwmainnet-v1.tgz#ee23fcbfb502fa4897fecb151ea7b6b89f8224aa"
+  integrity sha512-3ohD/SEx2Sbimo7mPccw5kJPjtwpv9Ejq73COIkk9ZYAXVh87IWE4E0lSctLOmCdJABXWjOACkR9FJMjXwMhzg==
+  dependencies:
+    "@dezzyboy/jiodex-bentobox-sdk" "0.0.1-gwmainnet-v1"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwmainnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/contracts" "^5.4.0"
     "@ethersproject/providers" "^5.6.4"
     "@ethersproject/solidity" "^5.6.0"
 
-"@dezzyboy/jiodex-limit-order-sdk@0.0.1-gwtestnet-v1":
-  version "0.0.1-gwtestnet-v1"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-limit-order-sdk/-/jiodex-limit-order-sdk-0.0.1-gwtestnet-v1.tgz#030c7de60887348e02700ee841cf3130b81eb623"
-  integrity sha512-1eF/Ne2WCU+Jw52dYZP6fm8oC/l5GPO/LsSuQISsnr0Yq7MNH9iZRa5Ds2X0vGOnzW60gD1VmKp29mbj4m3Oxg==
+"@dezzyboy/jiodex-limit-order-sdk@0.0.1-gwmainnet-v1":
+  version "0.0.1-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-limit-order-sdk/-/jiodex-limit-order-sdk-0.0.1-gwmainnet-v1.tgz#3de459b68467bd2307705fa451425e3610b32b27"
+  integrity sha512-KVn+zsmJnbtsoW+S08JxLEipEOOH6JETdJmgZdYqoJdIfDSVQh9lJqEPCUB6DopqwOU0iLQ8rebyr4uBO4qLSg==
   dependencies:
-    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwtestnet-v1"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwmainnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.0"
     "@ethersproject/bytes" "^5.4.0"
@@ -1333,12 +1349,12 @@
     eip-712 "^0.4.0"
     isomorphic-unfetch "^3.0.0"
 
-"@dezzyboy/trident-sdk@0.0.1-gwtestnet-v1":
-  version "0.0.1-gwtestnet-v1"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/trident-sdk/-/trident-sdk-0.0.1-gwtestnet-v1.tgz#79ed5e11213e45750148fba9f927258360a2365b"
-  integrity sha512-ojquqY1ZEzxyiKboKj0qy4Z/w825vte15XVcb+bfUGhLA7WGBn/o2a72sOr5PTXJoUENHvYp2JNyE61W4VAZqw==
+"@dezzyboy/trident-sdk@0.0.2-gwmainnet-v1":
+  version "0.0.2-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/trident-sdk/-/trident-sdk-0.0.2-gwmainnet-v1.tgz#d8361866e0c84444ef9ad59f42861eb22221f4fb"
+  integrity sha512-NulpTp89AGLkEfu0hDBezbBfu8srpK9/6l9pQIn66VAZfVEdIFG0fSJbLH4mTpUCxvzImLipM5dAYLB1PMiayA==
   dependencies:
-    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwtestnet-v1"
+    "@dezzyboy/jiodex-core-sdk" "0.0.2-gwmainnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
     "@ethersproject/solidity" "^5.6.0"

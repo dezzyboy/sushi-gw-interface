@@ -174,15 +174,15 @@ export const SUPPORTED_NETWORKS: Record<
     blockExplorerUrls: ['https://www.oklink.com/okexchain'],
   },
   [ChainId.GODWOKEN]: {
-    chainId: '0x116e9',
+    chainId: '0x116ea',
     chainName: 'Godwoken',
     nativeCurrency: {
       name: 'Nervos CKB',
       symbol: 'pCKB',
       decimals: 18,
     },
-    rpcUrls: ['https://godwoken-testnet-v1.ckbapp.dev'],
-    blockExplorerUrls: ['https://gw-explorer.nervosdao.community'],
+    rpcUrls: ['https://v1.mainnet.godwoken.io/rpc'],
+    blockExplorerUrls: ['https://v1.gwscan.com/'],
   },
   [ChainId.CELO]: {
     chainId: '0xA4EC',
