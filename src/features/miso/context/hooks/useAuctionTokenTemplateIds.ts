@@ -1,4 +1,4 @@
-import { CHAIN_KEY } from '@dezzyboy/sushiswap-core-sdk'
+import { CHAIN_KEY } from '@dezzyboy/jiodex-core-sdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import { useContract } from 'app/hooks'
 import { useSingleContractMultipleData } from 'app/lib/hooks/multicall'

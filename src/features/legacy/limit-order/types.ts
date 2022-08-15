@@ -1,5 +1,5 @@
-import { Price, Token } from '@dezzyboy/sushiswap-core-sdk'
-import { ILimitOrderData, LimitOrder, OrderStatus } from '@dezzyboy/sushiswap-limit-order-sdk'
+import { Price, Token } from '@dezzyboy/jiodex-core-sdk'
+import { ILimitOrderData, LimitOrder, OrderStatus } from '@dezzyboy/jiodex-limit-order-sdk'
 
 export interface LimitOrdersResponse {
   pendingOrders: PendingOrders

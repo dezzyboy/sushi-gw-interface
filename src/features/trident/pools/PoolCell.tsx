@@ -1,4 +1,4 @@
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { CurrencyLogoArray } from 'app/components/CurrencyLogo'
 import Image from 'next/image'
 import React, { FC } from 'react'

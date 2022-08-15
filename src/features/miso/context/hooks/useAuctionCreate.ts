@@ -1,6 +1,6 @@
+import { CHAIN_KEY, Percent } from '@dezzyboy/jiodex-core-sdk'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { AddressZero } from '@ethersproject/constants'
-import { CHAIN_KEY, Percent } from '@dezzyboy/sushiswap-core-sdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import { AuctionCreationFormInputFormatted } from 'app/features/miso/AuctionCreationForm'
 import { AuctionCreationWizardInputFormatted } from 'app/features/miso/AuctionCreationWizard'

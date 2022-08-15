@@ -1,5 +1,5 @@
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { Web3Provider } from '@ethersproject/providers'
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import ms from 'ms.macro'
 
 const NETWORK_POLLING_INTERVALS: { [chainId: number]: number } = {

@@ -1,4 +1,4 @@
-import { Currency, Trade as V2Trade, TradeType, TradeVersion } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, Trade as V2Trade, TradeType, TradeVersion } from '@dezzyboy/jiodex-core-sdk'
 import { Trade as V3Trade } from '@dezzyboy/trident-sdk'
 
 export function getTradeVersion(

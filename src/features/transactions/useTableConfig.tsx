@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { formatDateAgo, getExplorerLink } from 'app/functions'
 import React, { useMemo } from 'react'
 

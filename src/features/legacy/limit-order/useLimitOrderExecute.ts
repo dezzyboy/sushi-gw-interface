@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from '@dezzyboy/sushiswap-core-sdk'
-import { LimitOrder, STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/sushiswap-limit-order-sdk'
+import { Currency, CurrencyAmount } from '@dezzyboy/jiodex-core-sdk'
+import { LimitOrder, STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/jiodex-limit-order-sdk'
 import { getAddress } from '@ethersproject/address'
 import { Signature } from '@ethersproject/bytes'
 import { AddressZero } from '@ethersproject/constants'

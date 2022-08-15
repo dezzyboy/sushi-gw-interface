@@ -1,5 +1,5 @@
+import { Currency, CurrencyAmount } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { Currency, CurrencyAmount } from '@dezzyboy/sushiswap-core-sdk'
 
 export enum LiquidityLauncherTemplate {
   PostAuctionLauncher = 1,

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { ExclamationCircleIcon } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'

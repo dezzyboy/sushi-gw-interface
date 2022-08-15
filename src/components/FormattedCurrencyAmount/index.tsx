@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, JSBI } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, Fraction, JSBI } from '@dezzyboy/jiodex-core-sdk'
 import React from 'react'
 
 const CURRENCY_AMOUNT_MIN = new Fraction(JSBI.BigInt(1), JSBI.BigInt(1000000))

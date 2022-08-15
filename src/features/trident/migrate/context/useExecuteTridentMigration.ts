@@ -1,6 +1,6 @@
+import { CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
 import { approveSLPAction, batchAction } from 'app/features/trident/actions'
 import { handleMigrationError, missingMigrationDependencies } from 'app/features/trident/migrate/context/errorPopups'
 import { selectTridentMigrations, setMigrationTxHash } from 'app/features/trident/migrate/context/migrateSlice'

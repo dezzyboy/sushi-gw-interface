@@ -1,6 +1,6 @@
+import { Percent, TradeVersion } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Percent, TradeVersion } from '@dezzyboy/sushiswap-core-sdk'
 import { toAmountCurrencyAmount } from 'app/functions'
 import { getTradeVersion } from 'app/functions/getTradeVersion'
 import useBentoRebases from 'app/hooks/useBentoRebases'

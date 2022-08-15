@@ -1,6 +1,6 @@
+import { Currency, CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { Interface } from '@ethersproject/abi'
 import { BigNumber } from '@ethersproject/bignumber'
-import { Currency, CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
 import ERC20_ABI from 'app/constants/abis/erc20.json'
 import { useMultipleContractSingleData } from 'app/lib/hooks/multicall'
 

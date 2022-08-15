@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, TradeType } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, TradeType } from '@dezzyboy/jiodex-core-sdk'
 import { TransactionReceipt, TransactionResponse } from '@ethersproject/abstract-provider'
 import { PrivateTxStatus } from 'app/entities/SushiGuard'
 import { atomWithImmer } from 'jotai/immer'

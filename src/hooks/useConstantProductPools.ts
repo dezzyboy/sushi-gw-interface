@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { computeConstantProductPoolAddress, ConstantProductPool, Fee, PoolState } from '@dezzyboy/trident-sdk'
 import { Interface } from '@ethersproject/abi'
 import { default as constantProductPoolArtifact } from '@sushiswap/trident/artifacts/contracts/pool/constant-product/ConstantProductPool.sol/ConstantProductPool.json'

@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import HeadlessUiModal from 'app/components/Modal/HeadlessUIModal'
@@ -174,15 +174,15 @@ export const SUPPORTED_NETWORKS: Record<
     blockExplorerUrls: ['https://www.oklink.com/okexchain'],
   },
   [ChainId.GODWOKEN]: {
-    chainId: '0x116e9',
+    chainId: '0x116ea',
     chainName: 'Godwoken',
     nativeCurrency: {
       name: 'Nervos CKB',
       symbol: 'pCKB',
       decimals: 18,
     },
-    rpcUrls: ['https://godwoken-testnet-v1.ckbapp.dev'],
-    blockExplorerUrls: ['https://gw-explorer.nervosdao.community'],
+    rpcUrls: ['https://v1.mainnet.godwoken.io/rpc'],
+    blockExplorerUrls: ['https://v1.gwscan.com/'],
   },
   [ChainId.CELO]: {
     chainId: '0xA4EC',
@@ -239,17 +239,17 @@ export const SUPPORTED_NETWORKS: Record<
     rpcUrls: ['https://palm-mainnet.infura.io/v3/da5fbfafcca14b109e2665290681e267'],
     blockExplorerUrls: ['https://explorer.palm.io'],
   },
-  // [ChainId.MOONBEAM]: {
-  //   chainId: '0x504',
-  //   chainName: 'Moonbeam',
-  //   nativeCurrency: {
-  //     name: 'Glimmer',
-  //     symbol: 'GLMR',
-  //     decimals: 18,
-  //   },
-  //   rpcUrls: ['https://rpc.api.moonbeam.network'],
-  //   blockExplorerUrls: ['https://moonbeam.moonscan.io'],
-  // },
+  [ChainId.MOONBEAM]: {
+    chainId: '0x504',
+    chainName: 'Moonbeam',
+    nativeCurrency: {
+      name: 'Glimmer',
+      symbol: 'GLMR',
+      decimals: 18,
+    },
+    rpcUrls: ['https://rpc.api.moonbeam.network'],
+    blockExplorerUrls: ['https://moonbeam.moonscan.io'],
+  },
 }
 
 const NetworkModal: FC = () => {

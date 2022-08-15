@@ -1,14 +1,5 @@
+import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Token, Trade, TradeType } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import {
-  Currency,
-  CurrencyAmount,
-  Fraction,
-  JSBI,
-  Percent,
-  Token,
-  Trade,
-  TradeType,
-} from '@dezzyboy/sushiswap-core-sdk'
 
 import { ONE_HUNDRED_PERCENT, ZERO_PERCENT } from '../constants'
 

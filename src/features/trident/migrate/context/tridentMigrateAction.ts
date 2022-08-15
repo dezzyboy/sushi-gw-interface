@@ -1,4 +1,4 @@
-import { CurrencyAmount, Percent, Rebase, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount, Percent, Rebase, Token } from '@dezzyboy/jiodex-core-sdk'
 import { ConstantProductPool, Fee } from '@dezzyboy/trident-sdk'
 import { Contract } from '@ethersproject/contracts'
 import { v2Migration } from 'app/features/trident/migrate/context/migrateSlice'

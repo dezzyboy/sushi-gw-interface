@@ -1,7 +1,7 @@
+import { Currency, CurrencyAmount, NATIVE, Price, Token } from '@dezzyboy/jiodex-core-sdk'
 import { AddressZero } from '@ethersproject/constants'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, NATIVE, Price, Token } from '@dezzyboy/sushiswap-core-sdk'
 import Form from 'app/components/Form'
 import FormFieldHelperText from 'app/components/Form/FormFieldHelperText'
 import Typography from 'app/components/Typography'

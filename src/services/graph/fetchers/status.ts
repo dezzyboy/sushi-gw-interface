@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { GRAPH_HOST } from 'app/services/graph/constants'
 import { request } from 'graphql-request'
 

@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Token } from '@dezzyboy/jiodex-core-sdk'
 import { Fee, PoolType } from '@dezzyboy/trident-sdk'
 import { getAddress } from '@ethersproject/address'
 import { GRAPH_HOST, TRIDENT } from 'app/services/graph/constants'

@@ -1,8 +1,8 @@
 // CONVENTION isFoo -> boolean
 
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { getAddress } from '@ethersproject/address'
 import { BigNumber } from '@ethersproject/bignumber'
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
 import { TokenAddressMap } from 'app/state/lists/hooks'
 
 /**

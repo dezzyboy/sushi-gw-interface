@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, JSBI, Percent, TradeType, ZERO } from '@dezzyboy/sushiswap-core-sdk'
-import { Trade as LegacyTrade } from '@dezzyboy/sushiswap-core-sdk/dist/entities/Trade'
+import { Currency, CurrencyAmount, JSBI, Percent, TradeType, ZERO } from '@dezzyboy/jiodex-core-sdk'
+import { Trade as LegacyTrade } from '@dezzyboy/jiodex-core-sdk/dist/entities/Trade'
 import { LTV, PADDING } from 'app/features/kashi/constants'
 import KashiMediumRiskLendingPair from 'app/features/kashi/KashiMediumRiskLendingPair'
 import { computeRealizedLPFeePercent } from 'app/functions'

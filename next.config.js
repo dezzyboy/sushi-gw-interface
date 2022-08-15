@@ -3,7 +3,7 @@ const runtimeCaching = require('next-pwa/cache')
 const linguiConfig = require('./lingui.config.js')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
-const { ChainId } = require('@dezzyboy/sushiswap-core-sdk')
+const { ChainId } = require('@dezzyboy/jiodex-core-sdk')
 
 const { locales, sourceLocale } = linguiConfig
 const { screens } = defaultTheme

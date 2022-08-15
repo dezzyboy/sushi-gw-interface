@@ -17,8 +17,8 @@ import {
   SUSHI_ADDRESS,
   TIMELOCK_ADDRESS,
   WNATIVE_ADDRESS,
-} from '@dezzyboy/sushiswap-core-sdk'
-import { LIMIT_ORDER_HELPER_ADDRESS, STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/sushiswap-limit-order-sdk'
+} from '@dezzyboy/jiodex-core-sdk'
+import { LIMIT_ORDER_HELPER_ADDRESS, STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/jiodex-limit-order-sdk'
 import { Pool, PoolType } from '@dezzyboy/trident-sdk'
 import { Contract } from '@ethersproject/contracts'
 import MISO from '@sushiswap/miso/exports/all.json'
@@ -174,7 +174,7 @@ const MULTICALL_ADDRESS = {
   [ChainId.KOVAN]: '0x1F98415757620B543A52E61c46B32eB19261F984',
   [ChainId.MATIC]: '0x1F98415757620B543A52E61c46B32eB19261F984',
   // [ChainId.OPTIMISM]: '0x1F98415757620B543A52E61c46B32eB19261F984',
-  [ChainId.GODWOKEN]: '0x2a6485D27d59BB0725879B232e03c3c5Dd4E4607',
+  [ChainId.GODWOKEN]: '0x6a42C67Fb826d987eA9BC7eb32624d6b3E67b37E',
   // [ChainId.MOONBEAM]: '0x34c471ddceb20018bbb73f6d13709936fc870acc',
   [ChainId.AVALANCHE]: '0x8C0F842791F03C095b6c633759224FcC9ACe68ea',
   [ChainId.BSC]: '0x47A307e3167820daf22a377D777371753758f59c',

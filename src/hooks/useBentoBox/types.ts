@@ -1,6 +1,6 @@
+import { ChainId, JSBI } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { Contract } from '@ethersproject/contracts'
-import { ChainId, JSBI } from '@dezzyboy/sushiswap-core-sdk'
 
 export type Action<T, P = { data: string; value?: BigNumber }> = (x: T) => P
 

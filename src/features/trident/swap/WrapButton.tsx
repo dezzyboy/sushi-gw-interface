@@ -1,4 +1,4 @@
-import { NATIVE, WNATIVE, WNATIVE_ADDRESS } from '@dezzyboy/sushiswap-core-sdk'
+import { NATIVE, WNATIVE, WNATIVE_ADDRESS } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import Button from 'app/components/Button'

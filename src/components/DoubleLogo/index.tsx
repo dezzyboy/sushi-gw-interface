@@ -1,4 +1,4 @@
-import { Currency } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency } from '@dezzyboy/jiodex-core-sdk'
 import { classNames } from 'app/functions'
 import React from 'react'
 

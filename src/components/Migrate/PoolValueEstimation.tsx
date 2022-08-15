@@ -1,4 +1,4 @@
-import { JSBI, Pair } from '@dezzyboy/sushiswap-core-sdk'
+import { JSBI, Pair } from '@dezzyboy/jiodex-core-sdk'
 import SumUSDCValues from 'app/features/trident/SumUSDCValues'
 import { classNames } from 'app/functions'
 import { useTotalSupply } from 'app/hooks/useTotalSupply'

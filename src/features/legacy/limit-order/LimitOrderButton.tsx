@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Trade, TradeType } from '@dezzyboy/sushiswap-core-sdk'
-import { STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/sushiswap-limit-order-sdk'
+import { Currency, CurrencyAmount, Trade, TradeType } from '@dezzyboy/jiodex-core-sdk'
+import { STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/jiodex-limit-order-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import Button from 'app/components/Button'

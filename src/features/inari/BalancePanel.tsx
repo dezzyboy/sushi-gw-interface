@@ -1,6 +1,6 @@
+import { CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import Input from 'app/components/Input'
 import Typography from 'app/components/Typography'

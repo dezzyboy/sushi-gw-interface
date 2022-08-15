@@ -1,4 +1,4 @@
-import { toAmount, toShare } from '@dezzyboy/sushiswap-bentobox-sdk'
+import { toAmount, toShare } from '@dezzyboy/jiodex-bentobox-sdk'
 import {
   Currency,
   CurrencyAmount,
@@ -10,8 +10,8 @@ import {
   toElastic,
   Token,
   ZERO,
-} from '@dezzyboy/sushiswap-core-sdk'
-import { accrue, AccrueInfo, computePairAddress, interestAccrue, takeFee } from '@dezzyboy/sushiswap-kashi-sdk'
+} from '@dezzyboy/jiodex-core-sdk'
+import { accrue, AccrueInfo, computePairAddress, interestAccrue, takeFee } from '@dezzyboy/jiodex-kashi-sdk'
 
 import { accrueTotalAssetWithFee } from './functions'
 import { Oracle } from './oracles'

@@ -1,4 +1,4 @@
-import { ChainId, SUSHI_ADDRESS } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, SUSHI_ADDRESS } from '@dezzyboy/jiodex-core-sdk'
 import { parse } from 'qs'
 
 import { Field } from './actions'

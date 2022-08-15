@@ -1,4 +1,4 @@
-import { Pair } from '@dezzyboy/sushiswap-core-sdk'
+import { Pair } from '@dezzyboy/jiodex-core-sdk'
 import { Fee } from '@dezzyboy/trident-sdk'
 import { TridentPool } from 'app/services/graph'
 

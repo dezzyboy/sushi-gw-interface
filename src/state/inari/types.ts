@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 
 import { BaseStrategyHook } from './strategies/useBaseStrategy'
 import { BaseStrategyWithBentoBoxTraitHook } from './traits/useBentoBoxTrait'

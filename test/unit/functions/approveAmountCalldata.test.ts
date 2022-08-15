@@ -1,5 +1,5 @@
+import { ChainId, Currency, CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { AddressZero } from '@ethersproject/constants'
-import { ChainId, Currency, CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
 import approveAmountCalldata, { toHex } from 'app/functions/approveAmountCalldata'
 
 describe('approveAmountCalldata functions', () => {

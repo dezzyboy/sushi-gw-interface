@@ -70,8 +70,8 @@ function Web3StatusInner() {
               address={account}
               defaultComponent={
                 <Image
-                  src="https://app.sushi.com/images/chef.svg"
-                  alt="Sushi Chef"
+                  src="https://staging.jioswap.finance/static/media/logo.724338c6.svg"
+                  alt="Jio"
                   width={24}
                   height={24}
                   className="rounded-full pointer-events-none"

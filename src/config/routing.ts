@@ -1,5 +1,5 @@
 // a list of tokens by chain
-import { ChainId, SUSHI, Token, WNATIVE } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, SUSHI, Token, WNATIVE } from '@dezzyboy/jiodex-core-sdk'
 
 import * as AVALANCHE from './tokens/avalanche'
 import * as BSC from './tokens/bsc'
@@ -426,13 +426,14 @@ export const COMMON_BASES: ChainTokenList = {
     // // @ts-ignore TYPE NEEDS FIXING
     // GODWOKEN.MIM,
     // // @ts-ignore TYPE NEEDS FIXING
-    GODWOKEN.JIO,
+    GODWOKEN.dCKB,
     // // @ts-ignore TYPE NEEDS FIXING
     GODWOKEN.DAI,
     // @ts-ignore TYPE NEEDS FIXING
     GODWOKEN.USDC,
     // @ts-ignore TYPE NEEDS FIXING
     GODWOKEN.USDT,
+    GODWOKEN.BNB,
     // @ts-ignore TYPE NEEDS FIXING
     // GODWOKEN.FRAX,
     // // @ts-ignore TYPE NEEDS FIXING

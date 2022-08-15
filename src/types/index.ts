@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token, Trade as LegacyTrade, TradeType } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, Token, Trade as LegacyTrade, TradeType } from '@dezzyboy/jiodex-core-sdk'
 import { PoolState, Trade } from '@dezzyboy/trident-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 

@@ -1,4 +1,4 @@
-import { toShare } from '@dezzyboy/sushiswap-bentobox-sdk'
+import { toShare } from '@dezzyboy/jiodex-bentobox-sdk'
 import {
   Currency,
   CurrencyAmount,
@@ -7,8 +7,8 @@ import {
   SUSHISWAP_MULTI_EXACT_SWAPPER_ADDRESS,
   TradeType,
   ZERO,
-} from '@dezzyboy/sushiswap-core-sdk'
-import { Trade as LegacyTrade } from '@dezzyboy/sushiswap-core-sdk/dist/entities/Trade'
+} from '@dezzyboy/jiodex-core-sdk'
+import { Trade as LegacyTrade } from '@dezzyboy/jiodex-core-sdk/dist/entities/Trade'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { BigNumber } from '@ethersproject/bignumber'
 import { hexConcat, hexlify } from '@ethersproject/bytes'

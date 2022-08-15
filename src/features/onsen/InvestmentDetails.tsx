@@ -1,5 +1,5 @@
-import { toAmount } from '@dezzyboy/sushiswap-bentobox-sdk'
-import { ChainId, CurrencyAmount, Token, ZERO } from '@dezzyboy/sushiswap-core-sdk'
+import { toAmount } from '@dezzyboy/jiodex-bentobox-sdk'
+import { ChainId, CurrencyAmount, Token, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { getAddress } from '@ethersproject/address'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

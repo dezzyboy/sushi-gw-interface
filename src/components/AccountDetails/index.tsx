@@ -86,7 +86,12 @@ const AccountDetails: FC<AccountDetailsProps> = ({
                   // @ts-ignore TYPE NEEDS FIXING
                   address={account}
                   defaultComponent={
-                    <Image src="https://app.sushi.com/images/chef.svg" alt="Sushi Chef" width={48} height={48} />
+                    <Image
+                      src="https://staging.jioswap.finance/static/media/logo.724338c6.svg"
+                      alt="Jio"
+                      width={48}
+                      height={48}
+                    />
                   }
                   provider={library}
                 />

@@ -1,5 +1,3 @@
-import { MaxUint256 } from '@ethersproject/constants'
-import { TransactionResponse } from '@ethersproject/providers'
 import {
   Currency,
   CurrencyAmount,
@@ -7,7 +5,9 @@ import {
   ROUTER_ADDRESS,
   Trade as V2Trade,
   TradeType,
-} from '@dezzyboy/sushiswap-core-sdk'
+} from '@dezzyboy/jiodex-core-sdk'
+import { MaxUint256 } from '@ethersproject/constants'
+import { TransactionResponse } from '@ethersproject/providers'
 import { calculateGasMargin } from 'app/functions/trade'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useHasPendingApproval, useTransactionAdder } from 'app/state/transactions/hooks'

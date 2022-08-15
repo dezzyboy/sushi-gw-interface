@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { ApprovalState } from 'app/hooks/useApproveCallback'
 import useBentoMasterApproveCallback, { BentoMasterApproveCallback } from 'app/hooks/useBentoMasterApproveCallback'
 import { useInariContract } from 'app/hooks/useContract'

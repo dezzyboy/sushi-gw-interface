@@ -1,5 +1,5 @@
+import { JSBI } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
-import { JSBI } from '@dezzyboy/sushiswap-core-sdk'
 import { ERC20_ABI } from 'app/constants/abis/erc20'
 import { getContract } from 'app/functions'
 import { useBentoBoxContract } from 'app/hooks'

@@ -1282,17 +1282,17 @@
     mersenne-twister "^1.1.0"
     react-blockies "^1.4.1"
 
-"@dezzyboy/sushiswap-bentobox-sdk@^1.0.0-canary.77":
-  version "1.0.0-canary.77"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-bentobox-sdk/-/sushiswap-bentobox-sdk-1.0.0-canary.77.tgz#e6127837c7cdb0f7635fe5cabe54629eb95e9b7f"
-  integrity sha512-dnLSGLHpwcbwd3LbocCNUh6C0p+JQa70GyGxAOcYCXMOkvo5pxyWkO/I3h8PKvFtKR6jNZFMlMxQQdTMh/z4gA==
+"@dezzyboy/jiodex-bentobox-sdk@0.0.1-gwmainnet-v1":
+  version "0.0.1-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-bentobox-sdk/-/jiodex-bentobox-sdk-0.0.1-gwmainnet-v1.tgz#2ffcdc16ec02d104fb371a101522a3c8d1c87e9b"
+  integrity sha512-6DHzKAQHn3jZ2Yb+DiuwepYT9NPTMYbUaxrvEGQVb+IolLbhKA9oNuJVGQrZwtfjL4FntaXxFxTp8rVfHqdoWw==
   dependencies:
-    "@dezzyboy/sushiswap-core-sdk" "^1.0.0-canary.93"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwmainnet-v1"
 
-"@dezzyboy/sushiswap-core-sdk@^1.0.0-canary.93":
-  version "1.0.0-canary.93"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-core-sdk/-/sushiswap-core-sdk-1.0.0-canary.93.tgz#9c508cdae6c42d5e52bb61c1fc1a6cab7393bc10"
-  integrity sha512-V6Bpxn1MNvfssnGWCmUb01q7/lXv83yRpdzB3Lrh+INcJlo2vhgA0TlTdA4SlecDTA2/MdcOKYjXXA9+sBmKGQ==
+"@dezzyboy/jiodex-core-sdk@0.0.1-gwmainnet-v1":
+  version "0.0.1-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-core-sdk/-/jiodex-core-sdk-0.0.1-gwmainnet-v1.tgz#e372a2c1ef1a82aeabd60b377057f2bdefa921ae"
+  integrity sha512-PV4EbTFG7iU6T3qP7UkBb6Fqedjv7KTAhxGYCM1WWA2xxr3UcTHWagLWApD8berisXhVEN8Gg2FKSphViMwVhA==
   dependencies:
     "@ethersproject/address" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
@@ -1305,10 +1305,10 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
-"@dezzyboy/sushiswap-core-sdk@^1.0.1-canary.95":
-  version "1.0.1-canary.95"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-core-sdk/-/sushiswap-core-sdk-1.0.1-canary.95.tgz#44bf922f8f50ab05e33db8bd115834b3cecaba0f"
-  integrity sha512-lXR6qjfET1vzyyY3Ri/habatjzghfX8q+q/2EzlkAbU7Ini62sq+C4rmpp4n8m9vUgBdXCAAwAtZdj//XFSy+g==
+"@dezzyboy/jiodex-core-sdk@0.0.2-gwmainnet-v1":
+  version "0.0.2-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-core-sdk/-/jiodex-core-sdk-0.0.2-gwmainnet-v1.tgz#1f8a0dc128fac857e2fbb1ac75dbba3d14a70935"
+  integrity sha512-1Gu083tHDi4qslBQ/wMhaAOC9lNkbtSG2+29++JlU4IqHPw4Dnu3iZW4r+D418Nm9hb1iI+NQYZL71k457vpQQ==
   dependencies:
     "@ethersproject/address" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
@@ -1321,24 +1321,24 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
-"@dezzyboy/sushiswap-kashi-sdk@^1.0.0-canary.68":
-  version "1.0.0-canary.68"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-kashi-sdk/-/sushiswap-kashi-sdk-1.0.0-canary.68.tgz#a693b449197ce2c1694223c750ca9cbf77e000ac"
-  integrity sha512-7rYrdgOu/jFGrZBLH0U6nLw9rMfZf+Cl4OimJCMdbjw1Lf3ecOzLoF/LvXTyCO6Hjxyb+ZnYf8yx/SFX3XwlbQ==
+"@dezzyboy/jiodex-kashi-sdk@0.0.1-gwmainnet-v1":
+  version "0.0.1-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-kashi-sdk/-/jiodex-kashi-sdk-0.0.1-gwmainnet-v1.tgz#ee23fcbfb502fa4897fecb151ea7b6b89f8224aa"
+  integrity sha512-3ohD/SEx2Sbimo7mPccw5kJPjtwpv9Ejq73COIkk9ZYAXVh87IWE4E0lSctLOmCdJABXWjOACkR9FJMjXwMhzg==
   dependencies:
-    "@dezzyboy/sushiswap-bentobox-sdk" "^1.0.0-canary.77"
-    "@dezzyboy/sushiswap-core-sdk" "^1.0.0-canary.93"
+    "@dezzyboy/jiodex-bentobox-sdk" "0.0.1-gwmainnet-v1"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwmainnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/contracts" "^5.4.0"
     "@ethersproject/providers" "^5.6.4"
     "@ethersproject/solidity" "^5.6.0"
 
-"@dezzyboy/sushiswap-limit-order-sdk@^1.0.0-canary.78":
-  version "1.0.0-canary.78"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/sushiswap-limit-order-sdk/-/sushiswap-limit-order-sdk-1.0.0-canary.78.tgz#3e18f539733fc739ae8f0e2ff84db9fa73536db7"
-  integrity sha512-RG4xjjkeHVqgkte9/5WqUQpRNg9GdbVLcvFJ9QH9ZXc+hXdUoqMSzllk/De12Hg0TOUNbWa8hjG2qhPjI/bn8A==
+"@dezzyboy/jiodex-limit-order-sdk@0.0.1-gwmainnet-v1":
+  version "0.0.1-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-limit-order-sdk/-/jiodex-limit-order-sdk-0.0.1-gwmainnet-v1.tgz#3de459b68467bd2307705fa451425e3610b32b27"
+  integrity sha512-KVn+zsmJnbtsoW+S08JxLEipEOOH6JETdJmgZdYqoJdIfDSVQh9lJqEPCUB6DopqwOU0iLQ8rebyr4uBO4qLSg==
   dependencies:
-    "@dezzyboy/sushiswap-core-sdk" "^1.0.0-canary.93"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwmainnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.0"
     "@ethersproject/bytes" "^5.4.0"
@@ -1349,12 +1349,12 @@
     eip-712 "^0.4.0"
     isomorphic-unfetch "^3.0.0"
 
-"@dezzyboy/trident-sdk@^1.0.0-canary.105":
-  version "1.0.0-canary.105"
-  resolved "https://registry.yarnpkg.com/@dezzyboy/trident-sdk/-/trident-sdk-1.0.0-canary.105.tgz#d80a4c8aa32f3dbe867796f53985bb3d7fb40139"
-  integrity sha512-LyjMYbjKYRBQW2a+bqYPv7YfW4jnF4mzYOLuTdCMvFw5P0+XNb2t5sPiBmw7yMkVj3QKkh4jTiEuYm6LyYlqgA==
+"@dezzyboy/trident-sdk@0.0.2-gwmainnet-v1":
+  version "0.0.2-gwmainnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/trident-sdk/-/trident-sdk-0.0.2-gwmainnet-v1.tgz#d8361866e0c84444ef9ad59f42861eb22221f4fb"
+  integrity sha512-NulpTp89AGLkEfu0hDBezbBfu8srpK9/6l9pQIn66VAZfVEdIFG0fSJbLH4mTpUCxvzImLipM5dAYLB1PMiayA==
   dependencies:
-    "@dezzyboy/sushiswap-core-sdk" "^1.0.0-canary.93"
+    "@dezzyboy/jiodex-core-sdk" "0.0.2-gwmainnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
     "@ethersproject/solidity" "^5.6.0"

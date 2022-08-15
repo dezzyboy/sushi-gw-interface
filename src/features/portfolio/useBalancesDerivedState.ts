@@ -1,4 +1,4 @@
-import { Currency } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency } from '@dezzyboy/jiodex-core-sdk'
 import { selectBalancesCurrency } from 'app/features/portfolio/portfolioSlice'
 import { useCurrency } from 'app/hooks/Tokens'
 import { useSelector } from 'react-redux'

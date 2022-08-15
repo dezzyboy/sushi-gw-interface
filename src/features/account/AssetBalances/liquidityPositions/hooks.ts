@@ -1,4 +1,4 @@
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { PoolType } from '@dezzyboy/trident-sdk'
 import { getApy } from 'app/functions'
 import {

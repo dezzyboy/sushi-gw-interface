@@ -1,4 +1,4 @@
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { tryParseAmount } from 'app/functions/parse'
 import { useAppSelector } from 'app/state/hooks'
 import { useMemo } from 'react'

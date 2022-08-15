@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 
 // import GODWOKEN from './mappings/arbitrum'
 import AVALANCHE from './mappings/avalanche'

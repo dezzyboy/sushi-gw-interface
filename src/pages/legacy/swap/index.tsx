@@ -1,4 +1,4 @@
-import { Currency, JSBI, Token, Trade as V2Trade, TradeType } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, JSBI, Token, Trade as V2Trade, TradeType } from '@dezzyboy/jiodex-core-sdk'
 import { ArrowDownIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

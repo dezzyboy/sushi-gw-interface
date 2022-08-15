@@ -1,4 +1,4 @@
-import { CHAIN_KEY } from '@dezzyboy/sushiswap-core-sdk'
+import { CHAIN_KEY } from '@dezzyboy/jiodex-core-sdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import { DocumentInput } from 'app/features/miso/context/hooks/useAuctionDocuments'
 import { MisoAbiByTemplateId } from 'app/features/miso/context/utils'

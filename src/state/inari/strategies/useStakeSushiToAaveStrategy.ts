@@ -1,7 +1,7 @@
+import { ChainId, SUSHI, SUSHI_ADDRESS } from '@dezzyboy/jiodex-core-sdk'
 import { I18n } from '@lingui/core'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ChainId, SUSHI, SUSHI_ADDRESS } from '@dezzyboy/sushiswap-core-sdk'
 import { AXSUSHI } from 'app/config/tokens'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useTokenBalances } from 'app/state/wallet/hooks'

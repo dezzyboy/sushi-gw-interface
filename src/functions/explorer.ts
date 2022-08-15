@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 
 const explorers = {
   etherscan: (link: string, data: string, type: 'transaction' | 'token' | 'address' | 'block') => {
@@ -142,7 +142,7 @@ const chains: ChainObject = {
     builder: explorers.etherscan,
   },
   [ChainId.GODWOKEN]: {
-    link: 'https://gw-explorer.nervosdao.community',
+    link: 'https://v1.gwscan.com/',
     builder: explorers.etherscan,
   },
   [ChainId.MOONBEAM_TESTNET]: {

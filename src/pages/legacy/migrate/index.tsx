@@ -1,4 +1,4 @@
-import { ChainId, JSBI } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, JSBI } from '@dezzyboy/jiodex-core-sdk'
 import { AddressZero } from '@ethersproject/constants'
 import { formatUnits, parseUnits } from '@ethersproject/units'
 import { ChevronDownIcon, XIcon } from '@heroicons/react/outline'

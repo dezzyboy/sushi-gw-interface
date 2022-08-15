@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, WNATIVE } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, currencyEquals, WNATIVE } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { TransactionResponse } from '@ethersproject/providers'
 import { ArrowLeftIcon, PlusIcon } from '@heroicons/react/solid'

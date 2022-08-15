@@ -13,14 +13,14 @@ updates:
       # Add default Kodiak `merge.automerge_label`
       #- 'automerge'
     allow:
-      - dependency-name: '@dezzyboy/sushiswap-bentobox-sdk'
+      - dependency-name: '@dezzyboy/jiodex-bentobox-sdk'
       - dependency-name: '@sushiswap/chainlink-whitelist'
       - dependency-name: '@sushiswap/core'
-      - dependency-name: '@dezzyboy/sushiswap-core-sdk'
+      - dependency-name: '@dezzyboy/jiodex-core-sdk'
       - dependency-name: '@sushiswap/default-token-list'
-      - dependency-name: '@dezzyboy/sushiswap-kashi-sdk'
+      - dependency-name: '@dezzyboy/jiodex-kashi-sdk'
       - dependency-name: '@sushiswap/limit-order-pair-list'
-      - dependency-name: '@dezzyboy/sushiswap-limit-order-sdk'
+      - dependency-name: '@dezzyboy/jiodex-limit-order-sdk'
       - dependency-name: '@sushiswap/tines'
       - dependency-name: '@sushiswap/trident'
       - dependency-name: '@dezzyboy/trident-sdk'

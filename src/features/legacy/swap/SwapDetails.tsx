@@ -1,11 +1,4 @@
-import {
-  Currency,
-  CurrencyAmount,
-  NATIVE,
-  Token,
-  Trade as LegacyTrade,
-  TradeVersion,
-} from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, NATIVE, Token, Trade as LegacyTrade, TradeVersion } from '@dezzyboy/jiodex-core-sdk'
 import { Trade as TridentTrade } from '@dezzyboy/trident-sdk'
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronDownIcon, ExternalLinkIcon } from '@heroicons/react/outline'

@@ -1,5 +1,5 @@
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { createAction } from '@reduxjs/toolkit'
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import { PrivateTxStatus } from 'app/entities/SushiGuard'
 
 export interface SerializableTransactionReceipt {

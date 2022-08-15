@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Percent, TradeType } from '@dezzyboy/sushiswap-core-sdk'
-import { Trade as LegacyTrade } from '@dezzyboy/sushiswap-core-sdk/dist/entities/Trade'
+import { Currency, CurrencyAmount, Percent, TradeType } from '@dezzyboy/jiodex-core-sdk'
+import { Trade as LegacyTrade } from '@dezzyboy/jiodex-core-sdk/dist/entities/Trade'
 import { Trade } from '@dezzyboy/trident-sdk'
 import { createContext, useContext } from 'react'
 

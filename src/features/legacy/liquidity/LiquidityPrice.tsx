@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, Percent, Price } from '@dezzyboy/jiodex-core-sdk'
 import Typography from 'app/components/Typography'
 import { ONE_BIPS } from 'app/constants'
 import TradePrice from 'app/features/legacy/swap/TradePrice'

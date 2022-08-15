@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Pair, Percent, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount, JSBI, Pair, Percent, Token } from '@dezzyboy/jiodex-core-sdk'
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/outline'
 import { PlusIcon } from '@heroicons/react/solid'

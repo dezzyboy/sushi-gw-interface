@@ -1,6 +1,6 @@
+import { CurrencyAmount, Token, WNATIVE } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, Token, WNATIVE } from '@dezzyboy/sushiswap-core-sdk'
 import {
   approveMasterContractAction,
   approveSLPAction,

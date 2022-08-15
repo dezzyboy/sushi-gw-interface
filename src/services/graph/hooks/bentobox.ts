@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { Feature } from 'app/enums'
 import { featureEnabled } from 'app/functions/feature'
 import {

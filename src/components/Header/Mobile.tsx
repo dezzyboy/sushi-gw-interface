@@ -1,4 +1,4 @@
-import { NATIVE } from '@dezzyboy/sushiswap-core-sdk'
+import { NATIVE } from '@dezzyboy/jiodex-core-sdk'
 import { Dialog, Transition } from '@headlessui/react'
 import { MenuIcon } from '@heroicons/react/outline'
 import useMenu from 'app/components/Header/useMenu'

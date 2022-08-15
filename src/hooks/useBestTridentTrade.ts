@@ -7,7 +7,7 @@ import {
   Trade as LegacyTrade,
   TradeType,
   WNATIVE,
-} from '@dezzyboy/sushiswap-core-sdk'
+} from '@dezzyboy/jiodex-core-sdk'
 import {
   ConstantProductPool,
   convertTinesSingleRouteToLegacyRoute,

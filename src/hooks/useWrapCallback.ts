@@ -1,4 +1,4 @@
-import { ChainId, Currency, NATIVE, WNATIVE } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Currency, NATIVE, WNATIVE } from '@dezzyboy/jiodex-core-sdk'
 import { tryParseAmount } from 'app/functions/parse'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useTransactionAdder } from 'app/state/transactions/hooks'

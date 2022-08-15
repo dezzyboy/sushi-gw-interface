@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, JSBI } from '@dezzyboy/jiodex-core-sdk'
 import { parseUnits } from '@ethersproject/units'
 
 export function parseBalance(value: string, decimals = 18) {

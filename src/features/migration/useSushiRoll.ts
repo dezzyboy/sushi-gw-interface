@@ -1,6 +1,6 @@
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { Zero } from '@ethersproject/constants'
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import { useSushiRollContract } from 'app/hooks/useContract'
 import { useActiveWeb3React } from 'app/services/web3'
 import { signERC2612Permit } from 'eth-permit'
