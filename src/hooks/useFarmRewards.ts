@@ -1,4 +1,4 @@
-import { ChainId, Currency, NATIVE, SUSHI, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Currency, NATIVE, SUSHI, Token } from '@dezzyboy/jiodex-core-sdk'
 import { getAddress } from '@ethersproject/address'
 import { XDAI_TOKENS } from 'app/config/tokens'
 import { Feature } from 'app/enums'

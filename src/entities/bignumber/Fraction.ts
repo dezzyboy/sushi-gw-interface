@@ -1,6 +1,6 @@
+import { Fraction as SDKFraction } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber'
 import { One, Zero } from '@ethersproject/constants'
-import { Fraction as SDKFraction } from '@dezzyboy/sushiswap-core-sdk'
 import { formatBalance } from 'app/functions/format'
 import { parseBalance } from 'app/functions/parse'
 import { isEmptyValue } from 'app/functions/validate'

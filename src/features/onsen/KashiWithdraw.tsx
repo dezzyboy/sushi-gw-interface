@@ -1,5 +1,5 @@
-import { toShare } from '@dezzyboy/sushiswap-bentobox-sdk'
-import { CurrencyAmount, JSBI, KASHI_ADDRESS, minimum, ZERO } from '@dezzyboy/sushiswap-core-sdk'
+import { toShare } from '@dezzyboy/jiodex-bentobox-sdk'
+import { CurrencyAmount, JSBI, KASHI_ADDRESS, minimum, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

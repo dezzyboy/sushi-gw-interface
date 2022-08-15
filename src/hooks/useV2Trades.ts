@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Trade, TradeType } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, Pair, Trade, TradeType } from '@dezzyboy/jiodex-core-sdk'
 import { BETTER_TRADE_LESS_HOPS_THRESHOLD } from 'app/constants'
 import { isTradeBetter } from 'app/functions/trade'
 import { useMemo } from 'react'

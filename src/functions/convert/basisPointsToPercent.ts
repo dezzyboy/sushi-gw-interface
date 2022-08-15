@@ -1,4 +1,4 @@
-import { JSBI, Percent } from '@dezzyboy/sushiswap-core-sdk'
+import { JSBI, Percent } from '@dezzyboy/jiodex-core-sdk'
 
 // converts a basis points value to a sdk percent
 export function basisPointsToPercent(num: number): Percent {

@@ -1,4 +1,4 @@
-import { ChainId, NATIVE, Percent, WNATIVE, WNATIVE_ADDRESS } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, NATIVE, Percent, WNATIVE, WNATIVE_ADDRESS } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'

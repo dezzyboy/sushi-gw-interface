@@ -1,4 +1,4 @@
-import { LimitOrder } from '@dezzyboy/sushiswap-limit-order-sdk'
+import { LimitOrder } from '@dezzyboy/jiodex-limit-order-sdk'
 import { ChevronRightIcon } from '@heroicons/react/outline'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

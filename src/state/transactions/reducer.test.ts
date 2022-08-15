@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { createStore, Store } from 'redux'
 
 import { addTransaction, checkedTransaction, clearAllTransactions, finalizeTransaction } from './actions'

@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { useSingleCallResult } from 'app/lib/hooks/multicall'
 import { useMemo } from 'react'
 

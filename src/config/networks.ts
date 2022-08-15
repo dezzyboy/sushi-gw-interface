@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 
 const Godwoken = 'https://www.jioswap.finance/img/nervos-network-ckb-logo.png'
 const Avalanche = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/avalanche.jpg'

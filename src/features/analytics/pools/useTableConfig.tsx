@@ -1,5 +1,5 @@
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { getAddress } from '@ethersproject/address'
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
 import { CurrencyLogoArray } from 'app/components/CurrencyLogo'
 import { formatNumber, getApy } from 'app/functions'
 import { useOneDayBlock, useOneWeekBlock, useSushiPairs, useTwoDayBlock } from 'app/services/graph'

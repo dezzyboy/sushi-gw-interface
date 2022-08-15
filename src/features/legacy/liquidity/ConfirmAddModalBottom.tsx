@@ -1,6 +1,6 @@
+import { Currency, CurrencyAmount, Fraction, Percent } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, Fraction, Percent } from '@dezzyboy/sushiswap-core-sdk'
 import Button from 'app/components/Button'
 import { Field } from 'app/state/mint/actions'
 import React from 'react'

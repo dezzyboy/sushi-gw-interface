@@ -1,4 +1,4 @@
-import { Currency, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, Token } from '@dezzyboy/jiodex-core-sdk'
 import React, { FC } from 'react'
 
 import Typography from '../Typography'

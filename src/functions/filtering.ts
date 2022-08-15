@@ -1,4 +1,4 @@
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { TokenInfo } from '@uniswap/token-lists'
 import { useMemo } from 'react'
 

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI, NATIVE, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, JSBI, NATIVE, Token } from '@dezzyboy/jiodex-core-sdk'
 import { Interface } from '@ethersproject/abi'
 import ERC20_ABI from 'app/constants/abis/erc20.json'
 import { isAddress } from 'app/functions/validate'

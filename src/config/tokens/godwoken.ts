@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Token } from '@dezzyboy/jiodex-core-sdk'
 
 export const USDC = new Token(ChainId.GODWOKEN, '0x11A3893836e2D723E0326457E5e9E2466281FEE5', 18, 'USDC', 'USD Coin')
 

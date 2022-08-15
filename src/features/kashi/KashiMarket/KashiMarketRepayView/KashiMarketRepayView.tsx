@@ -1,6 +1,6 @@
+import { CurrencyAmount, JSBI, maximum, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, JSBI, maximum, ZERO } from '@dezzyboy/sushiswap-core-sdk'
 import Typography from 'app/components/Typography'
 import {
   KashiMarketDetailsView,

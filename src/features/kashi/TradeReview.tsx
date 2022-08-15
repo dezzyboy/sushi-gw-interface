@@ -1,4 +1,4 @@
-import { Currency, Trade as V2Trade, TradeType } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, Trade as V2Trade, TradeType } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import FormattedPriceImpact from 'app/components/FormattedPriceImpact'

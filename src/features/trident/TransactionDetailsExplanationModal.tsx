@@ -1,6 +1,6 @@
+import { Fraction } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Fraction } from '@dezzyboy/sushiswap-core-sdk'
 import HeadlessUiModal from 'app/components/Modal/HeadlessUIModal'
 import Typography from 'app/components/Typography'
 import { usePoolContext } from 'app/features/trident/PoolContext'

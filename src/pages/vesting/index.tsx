@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount } from '@dezzyboy/jiodex-core-sdk'
 import { isAddress } from '@ethersproject/address'
 import { BigNumber } from '@ethersproject/bignumber'
 import { ArrowRightIcon } from '@heroicons/react/outline'

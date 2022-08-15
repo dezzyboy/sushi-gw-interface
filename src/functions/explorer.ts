@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 
 const explorers = {
   etherscan: (link: string, data: string, type: 'transaction' | 'token' | 'address' | 'block') => {

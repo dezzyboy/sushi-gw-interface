@@ -1,4 +1,4 @@
-import { Percent } from '@dezzyboy/sushiswap-core-sdk'
+import { Percent } from '@dezzyboy/jiodex-core-sdk'
 import { SwitchVerticalIcon } from '@heroicons/react/outline'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

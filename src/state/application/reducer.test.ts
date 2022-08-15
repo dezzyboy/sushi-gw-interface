@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { createStore, Store } from 'redux'
 
 import { addPopup, ApplicationModal, removePopup, setOpenModal, updateBlockNumber } from './actions'

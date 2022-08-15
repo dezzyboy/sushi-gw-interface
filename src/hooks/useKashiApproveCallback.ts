@@ -1,6 +1,6 @@
+import { KASHI_ADDRESS } from '@dezzyboy/jiodex-core-sdk'
 import { splitSignature } from '@ethersproject/bytes'
 import { AddressZero, HashZero } from '@ethersproject/constants'
-import { KASHI_ADDRESS } from '@dezzyboy/sushiswap-core-sdk'
 import KashiCooker, { signMasterContractApproval } from 'app/entities/KashiCooker'
 import { useActiveWeb3React } from 'app/services/web3'
 import { USER_REJECTED_TX } from 'app/services/web3/WalletError'

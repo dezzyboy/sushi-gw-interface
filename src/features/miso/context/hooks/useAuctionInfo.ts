@@ -1,6 +1,6 @@
+import { CHAIN_KEY } from '@dezzyboy/jiodex-core-sdk'
 import { Interface } from '@ethersproject/abi'
 import { BigNumber } from '@ethersproject/bignumber'
-import { CHAIN_KEY } from '@dezzyboy/sushiswap-core-sdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import BASE_AUCTION_ABI from 'app/constants/abis/base-auction.json'
 import { AuctionTemplate, RawLauncherInfo } from 'app/features/miso/context/types'

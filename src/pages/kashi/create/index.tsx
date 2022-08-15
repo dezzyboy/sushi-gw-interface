@@ -1,4 +1,4 @@
-import { CHAINLINK_ORACLE_ADDRESS, Currency, KASHI_ADDRESS } from '@dezzyboy/sushiswap-core-sdk'
+import { CHAINLINK_ORACLE_ADDRESS, Currency, KASHI_ADDRESS } from '@dezzyboy/jiodex-core-sdk'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { AddressZero } from '@ethersproject/constants'
 import { Menu, Transition } from '@headlessui/react'

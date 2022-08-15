@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Price } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, Price } from '@dezzyboy/jiodex-core-sdk'
 
 export const getPriceOfNewPool = (
   amounts: (CurrencyAmount<Currency> | undefined)[]

@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { Fraction } from 'app/entities/bignumber'
 import { useCloneRewarderContract, useComplexRewarderContract } from 'app/hooks/useContract'

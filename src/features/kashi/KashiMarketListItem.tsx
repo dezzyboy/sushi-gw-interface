@@ -1,4 +1,4 @@
-import { CurrencyAmount, Percent } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount, Percent } from '@dezzyboy/jiodex-core-sdk'
 import { I18n } from '@lingui/core'
 import { t } from '@lingui/macro'
 import { CurrencyLogoArray } from 'app/components/CurrencyLogo'

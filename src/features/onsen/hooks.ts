@@ -1,5 +1,3 @@
-import { Zero } from '@ethersproject/constants'
-import { Contract } from '@ethersproject/contracts'
 import {
   CurrencyAmount,
   JSBI,
@@ -7,7 +5,9 @@ import {
   MASTERCHEF_V2_ADDRESS,
   MINICHEF_ADDRESS,
   SUSHI,
-} from '@dezzyboy/sushiswap-core-sdk'
+} from '@dezzyboy/jiodex-core-sdk'
+import { Zero } from '@ethersproject/constants'
+import { Contract } from '@ethersproject/contracts'
 import { OLD_FARMS } from 'app/config/farms'
 import {
   useMasterChefContract,

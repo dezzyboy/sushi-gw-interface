@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { getKashiPairs } from 'app/services/graph/fetchers'
 import stringify from 'fast-json-stable-stringify'
 import useSWR from 'swr'

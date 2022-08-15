@@ -1,4 +1,4 @@
-import { CurrencyAmount } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount } from '@dezzyboy/jiodex-core-sdk'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { Contract } from '@ethersproject/contracts'
 import { Listener, Web3Provider } from '@ethersproject/providers'

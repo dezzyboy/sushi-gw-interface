@@ -1,5 +1,5 @@
+import { Currency, CurrencyAmount } from '@dezzyboy/jiodex-core-sdk'
 import { AddressZero } from '@ethersproject/constants'
-import { Currency, CurrencyAmount } from '@dezzyboy/sushiswap-core-sdk'
 import { useUSDCValueSubgraph } from 'app/hooks/useUSDCSubgraph'
 import { FC, memo, ReactNode, useCallback, useEffect, useMemo, useState } from 'react'
 

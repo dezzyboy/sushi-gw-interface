@@ -1,5 +1,5 @@
-import { JSBI, maximum, Percent, ZERO } from '@dezzyboy/sushiswap-core-sdk'
-import { ACTION_ACCRUE, KashiMediumRiskLendingPair } from '@dezzyboy/sushiswap-kashi-sdk'
+import { JSBI, maximum, Percent, ZERO } from '@dezzyboy/jiodex-core-sdk'
+import { ACTION_ACCRUE, KashiMediumRiskLendingPair } from '@dezzyboy/jiodex-kashi-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import { Menu, Transition } from '@headlessui/react'
 import { DotsVerticalIcon } from '@heroicons/react/solid'

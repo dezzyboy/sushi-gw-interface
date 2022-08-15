@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { Trans, useLingui } from '@lingui/react'
 import HeadlessUIModal from 'app/components/Modal/HeadlessUIModal'

@@ -1,4 +1,4 @@
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { getAddress } from '@ethersproject/address'
 import { DuplicateIcon } from '@heroicons/react/outline'
 import { CheckIcon } from '@heroicons/react/solid'

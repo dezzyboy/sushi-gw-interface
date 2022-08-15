@@ -1,4 +1,4 @@
-import { TradeVersion, ZERO } from '@dezzyboy/sushiswap-core-sdk'
+import { TradeVersion, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { Transition } from '@headlessui/react'
 import { ArrowDownIcon } from '@heroicons/react/outline'
 import { t } from '@lingui/macro'

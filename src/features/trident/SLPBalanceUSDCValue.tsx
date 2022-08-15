@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token, USDC } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount, Token, USDC } from '@dezzyboy/jiodex-core-sdk'
 import { ConstantProductPool } from '@dezzyboy/trident-sdk'
 import { useTotalSupply } from 'app/hooks/useTotalSupply'
 import { useUSDCValue } from 'app/hooks/useUSDCPrice'

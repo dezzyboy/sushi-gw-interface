@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, ZERO } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { PoolState } from '@dezzyboy/trident-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

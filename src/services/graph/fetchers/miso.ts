@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { pager } from 'app/services/graph'
 import { misoCommitmentsQuery } from 'app/services/graph/queries/miso'
 

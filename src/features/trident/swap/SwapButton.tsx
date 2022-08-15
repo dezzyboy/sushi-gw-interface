@@ -1,6 +1,6 @@
+import { TradeVersion } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { TradeVersion } from '@dezzyboy/sushiswap-core-sdk'
 import Button from 'app/components/Button'
 import Dots from 'app/components/Dots'
 import { useDerivedTridentSwapContext } from 'app/features/trident/swap/DerivedTradeContext'

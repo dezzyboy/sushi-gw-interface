@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Rebase, Token, ZERO } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount, JSBI, Rebase, Token, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 
 // export function toAmount(token, shares: BigNumber): BigNumber {

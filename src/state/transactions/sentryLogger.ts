@@ -1,4 +1,4 @@
-import { Pair, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Pair, Token } from '@dezzyboy/jiodex-core-sdk'
 import { ConstantProductPool, Fee } from '@dezzyboy/trident-sdk'
 import { BigNumber } from '@ethersproject/bignumber'
 import * as Sentry from '@sentry/browser'

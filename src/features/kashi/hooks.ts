@@ -1,4 +1,4 @@
-import { ChainId, JSBI, KASHI_ADDRESS, Token, ZERO } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, JSBI, KASHI_ADDRESS, Token, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { getAddress } from '@ethersproject/address'
 import { BigNumber } from '@ethersproject/bignumber'

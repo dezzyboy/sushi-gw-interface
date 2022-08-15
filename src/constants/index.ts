@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, JSBI, Percent } from '@dezzyboy/jiodex-core-sdk'
 
 // TODO: Move some of this to config level...
 

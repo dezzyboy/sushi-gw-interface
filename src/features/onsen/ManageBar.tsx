@@ -1,10 +1,4 @@
-import {
-  ChainId,
-  MASTERCHEF_ADDRESS,
-  MASTERCHEF_V2_ADDRESS,
-  MINICHEF_ADDRESS,
-  Token,
-} from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, MASTERCHEF_ADDRESS, MASTERCHEF_V2_ADDRESS, MINICHEF_ADDRESS, Token } from '@dezzyboy/jiodex-core-sdk'
 import { getAddress } from '@ethersproject/address'
 import { BigNumber } from '@ethersproject/bignumber'
 import { MinusIcon, PlusIcon } from '@heroicons/react/solid'

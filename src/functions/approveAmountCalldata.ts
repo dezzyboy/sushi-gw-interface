@@ -1,5 +1,5 @@
+import { BigintIsh, Currency, CurrencyAmount, JSBI } from '@dezzyboy/jiodex-core-sdk'
 import { Interface } from '@ethersproject/abi'
-import { BigintIsh, Currency, CurrencyAmount, JSBI } from '@dezzyboy/sushiswap-core-sdk'
 
 export function toHex(bigintIsh: BigintIsh) {
   const bigInt = JSBI.BigInt(bigintIsh)

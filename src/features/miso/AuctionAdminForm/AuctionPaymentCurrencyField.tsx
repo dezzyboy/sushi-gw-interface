@@ -1,7 +1,7 @@
+import { DAI_ADDRESS, NATIVE, USDC_ADDRESS, USDT_ADDRESS } from '@dezzyboy/jiodex-core-sdk'
 import { AddressZero } from '@ethersproject/constants'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { DAI_ADDRESS, NATIVE, USDC_ADDRESS, USDT_ADDRESS } from '@dezzyboy/sushiswap-core-sdk'
 import Form from 'app/components/Form'
 import FormFieldHelperText from 'app/components/Form/FormFieldHelperText'
 import ToggleButtonGroup from 'app/components/ToggleButton'

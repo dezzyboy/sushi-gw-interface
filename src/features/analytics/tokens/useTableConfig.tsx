@@ -1,5 +1,5 @@
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { getAddress } from '@ethersproject/address'
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import { formatNumber, formatPercent } from 'app/functions'
 import React, { useMemo } from 'react'

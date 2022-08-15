@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, Price, Token, USD } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Currency, CurrencyAmount, Price, Token, USD } from '@dezzyboy/jiodex-core-sdk'
 import { useMemo } from 'react'
 
 import { useActiveWeb3React } from '../services/web3'

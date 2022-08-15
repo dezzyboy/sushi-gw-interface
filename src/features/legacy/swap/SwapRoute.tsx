@@ -1,5 +1,5 @@
+import { Currency, Trade, TradeType } from '@dezzyboy/jiodex-core-sdk'
 import { ChevronRightIcon } from '@heroicons/react/outline'
-import { Currency, Trade, TradeType } from '@dezzyboy/sushiswap-core-sdk'
 import { unwrappedToken } from 'app/functions/currency/wrappedCurrency'
 import React, { Fragment, memo } from 'react'
 

@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, NATIVE, WNATIVE } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Currency, CurrencyAmount, NATIVE, WNATIVE } from '@dezzyboy/jiodex-core-sdk'
 
 export function unwrappedToken(currency: Currency): Currency {
   if (currency.isNative) return currency

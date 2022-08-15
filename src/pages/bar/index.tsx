@@ -1,4 +1,4 @@
-import { BAR_ADDRESS, ChainId, SUSHI, ZERO } from '@dezzyboy/sushiswap-core-sdk'
+import { BAR_ADDRESS, ChainId, SUSHI, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import ExclamationIcon from '@heroicons/react/outline/ExclamationIcon'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { getVersionUpgrade, minVersionBump, VersionUpgrade } from '@uniswap/token-lists'
 import { GODWOKEN_LIST2, UNSUPPORTED_LIST_URLS } from 'app/config/token-lists'
 import { useFetchListCallback } from 'app/hooks/useFetchListCallback'

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount } from '@dezzyboy/jiodex-core-sdk'
 
 export interface Assets {
   asset: CurrencyAmount<Currency>

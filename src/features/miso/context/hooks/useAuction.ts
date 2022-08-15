@@ -1,4 +1,4 @@
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import { AddressZero } from '@ethersproject/constants'
 import { useAuctionDocuments } from 'app/features/miso/context/hooks/useAuctionDocuments'
 import { useAuctionEnded } from 'app/features/miso/context/hooks/useAuctionEnded'

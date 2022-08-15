@@ -1,4 +1,4 @@
-import { OrderStatus } from '@dezzyboy/sushiswap-limit-order-sdk'
+import { OrderStatus } from '@dezzyboy/jiodex-limit-order-sdk'
 import { ChevronRightIcon } from '@heroicons/react/outline'
 import Chip from 'app/components/Chip'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'

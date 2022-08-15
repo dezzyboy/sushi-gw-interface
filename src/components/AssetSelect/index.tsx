@@ -1,4 +1,4 @@
-import { Currency } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency } from '@dezzyboy/jiodex-core-sdk'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

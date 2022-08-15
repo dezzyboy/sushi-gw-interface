@@ -1,4 +1,4 @@
-import { ChainId, Currency, NATIVE, SUSHI } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Currency, NATIVE, SUSHI } from '@dezzyboy/jiodex-core-sdk'
 import { Fee } from '@dezzyboy/trident-sdk'
 import { useCurrency } from 'app/hooks/Tokens'
 import { useActiveWeb3React } from 'app/services/web3'

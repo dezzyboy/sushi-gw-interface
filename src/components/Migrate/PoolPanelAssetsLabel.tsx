@@ -1,4 +1,4 @@
-import { Pair } from '@dezzyboy/sushiswap-core-sdk'
+import { Pair } from '@dezzyboy/jiodex-core-sdk'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import React, { FC } from 'react'
 

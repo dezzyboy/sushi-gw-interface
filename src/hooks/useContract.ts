@@ -17,8 +17,8 @@ import {
   SUSHI_ADDRESS,
   TIMELOCK_ADDRESS,
   WNATIVE_ADDRESS,
-} from '@dezzyboy/sushiswap-core-sdk'
-import { LIMIT_ORDER_HELPER_ADDRESS, STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/sushiswap-limit-order-sdk'
+} from '@dezzyboy/jiodex-core-sdk'
+import { LIMIT_ORDER_HELPER_ADDRESS, STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/jiodex-limit-order-sdk'
 import { Pool, PoolType } from '@dezzyboy/trident-sdk'
 import { Contract } from '@ethersproject/contracts'
 import MISO from '@sushiswap/miso/exports/all.json'

@@ -1,4 +1,4 @@
-import { Percent } from '@dezzyboy/sushiswap-core-sdk'
+import { Percent } from '@dezzyboy/jiodex-core-sdk'
 import { warningSeverity } from 'app/functions/prices'
 import React from 'react'
 

@@ -1,4 +1,4 @@
-import { STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/sushiswap-limit-order-sdk'
+import { STOP_LIMIT_ORDER_ADDRESS } from '@dezzyboy/jiodex-limit-order-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import Typography from 'app/components/Typography'

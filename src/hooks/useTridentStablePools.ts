@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, JSBI } from '@dezzyboy/jiodex-core-sdk'
 import { computeHybridPoolAddress, Fee, HybridPool } from '@dezzyboy/trident-sdk'
 import { Interface } from '@ethersproject/abi'
 import HybridPoolArtifact from '@sushiswap/trident/artifacts/contracts/pool/hybrid/HybridPool.sol/HybridPool.json'

@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { useTransactionAdder } from 'app/state/transactions/hooks'
 import { useCallback } from 'react'
 

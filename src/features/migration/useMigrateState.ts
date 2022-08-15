@@ -1,5 +1,5 @@
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { parseUnits } from '@ethersproject/units'
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useIsTransactionPending, useTransactionAdder } from 'app/state/transactions/hooks'
 import { useCallback, useEffect, useState } from 'react'

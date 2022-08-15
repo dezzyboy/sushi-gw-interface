@@ -1,6 +1,6 @@
+import { JSBI, Percent, TradeType, TradeVersion, WNATIVE, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { JSBI, Percent, TradeType, TradeVersion, WNATIVE, ZERO } from '@dezzyboy/sushiswap-core-sdk'
 import { selectTridentSwap, TypedField } from 'app/features/trident/swap/swapSlice'
 import useCurrenciesFromURL from 'app/features/trident/useCurrenciesFromURL'
 import { maxAmountSpend, toAmountCurrencyAmount } from 'app/functions'

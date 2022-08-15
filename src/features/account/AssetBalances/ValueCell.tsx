@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount } from '@dezzyboy/jiodex-core-sdk'
 import Typography from 'app/components/Typography'
 import { currencyFormatter } from 'app/functions'
 import { useUSDCValueWithLoadingIndicator } from 'app/hooks/useUSDCPrice'

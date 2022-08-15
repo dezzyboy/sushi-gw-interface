@@ -8,7 +8,7 @@ import {
   toHex,
   Trade as LegacyTrade,
   TradeType,
-} from '@dezzyboy/sushiswap-core-sdk'
+} from '@dezzyboy/jiodex-core-sdk'
 import {
   ComplexPathParams,
   ExactInputParams,

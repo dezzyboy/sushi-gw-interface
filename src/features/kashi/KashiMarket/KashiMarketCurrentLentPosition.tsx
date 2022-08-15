@@ -1,6 +1,6 @@
+import { CurrencyAmount, Percent } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, Percent } from '@dezzyboy/sushiswap-core-sdk'
 import Typography from 'app/components/Typography'
 import { useKashiMarket } from 'app/features/kashi/KashiMarket/KashiMarketContext'
 import { classNames } from 'app/functions'

@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Token } from '@dezzyboy/jiodex-core-sdk'
 import { PoolType } from '@dezzyboy/trident-sdk'
 import { fetcher, TridentPoolData } from 'app/services/graph'
 import { getTridentPositionsQuery } from 'app/services/graph/queries'

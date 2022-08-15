@@ -1,4 +1,4 @@
-import { Currency, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, Token } from '@dezzyboy/jiodex-core-sdk'
 import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists'
 import { isAddress } from 'functions/validate'
 

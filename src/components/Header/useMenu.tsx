@@ -1,4 +1,4 @@
-import { ChainId, SUSHI_ADDRESS } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, SUSHI_ADDRESS } from '@dezzyboy/jiodex-core-sdk'
 import { BeakerIcon, GlobeIcon, SwitchVerticalIcon, TrendingUpIcon } from '@heroicons/react/outline'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'

@@ -1,6 +1,6 @@
+import { NATIVE } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { NATIVE } from '@dezzyboy/sushiswap-core-sdk'
 import Form from 'app/components/Form'
 import FormFieldHelperText from 'app/components/Form/FormFieldHelperText'
 import Typography from 'app/components/Typography'

@@ -1282,13 +1282,17 @@
     mersenne-twister "^1.1.0"
     react-blockies "^1.4.1"
 
-"@dezzyboy/sushiswap-bentobox-sdk@file:../sdk-new/packages/bentobox-sdk":
-  version "1.0.1-canary.77"
+"@dezzyboy/jiodex-bentobox-sdk@0.0.1-gwtestnet-v1":
+  version "0.0.1-gwtestnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-bentobox-sdk/-/jiodex-bentobox-sdk-0.0.1-gwtestnet-v1.tgz#5fac91c7eab23da2f533e2572c79ab2c8694c01f"
+  integrity sha512-Ty1mur206c0MkYrMJsrD3JpGCAUcFIgBbhvZJg2fYlr5ivfAJwUlAmJw8rL7u58nX80k+DpHLaRpas8bblYT7g==
   dependencies:
-    "@dezzyboy/sushiswap-core-sdk" "file:../../Library/Caches/Yarn/v6/npm-@dezzyboy-sushiswap-bentobox-sdk-1.0.1-canary.77-4113b697-4638-4f7a-80b7-10ad956cfa29-1660522049216/node_modules/@dezzyboy/core-sdk"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwtestnet-v1"
 
-"@dezzyboy/sushiswap-core-sdk@file:../sdk-new/packages/core-sdk":
-  version "1.0.2-canary.95"
+"@dezzyboy/jiodex-core-sdk@0.0.1-gwtestnet-v1":
+  version "0.0.1-gwtestnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-core-sdk/-/jiodex-core-sdk-0.0.1-gwtestnet-v1.tgz#a4c9beee5316625718df73cc5f30e4c543920138"
+  integrity sha512-0tw8hcg5pyDaymJxJvKX+Kkyuk2pmze9iQZVWHBmms/4MtMyCbVdzRivVhzaLUFoDCI0R10nIqY7POATeYr4yg==
   dependencies:
     "@ethersproject/address" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
@@ -1301,21 +1305,25 @@
     tiny-warning "^1.0.0"
     toformat "^2.0.0"
 
-"@dezzyboy/sushiswap-kashi-sdk@file:../sdk-new/packages/kashi-sdk":
-  version "1.0.1-canary.68"
+"@dezzyboy/jiodex-kashi-sdk@0.0.1-gwtestnet-v1":
+  version "0.0.1-gwtestnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-kashi-sdk/-/jiodex-kashi-sdk-0.0.1-gwtestnet-v1.tgz#b6aba4d857e099372ac1d060e0612087bcbdeb4f"
+  integrity sha512-ZqcEdNOLR+USfh6pjGyEau9v1wqft5ARM5lSjFebN/DMN1DQn8bc8c5SY2YzciM/wNadGyUzB0UgCO3+qFyPog==
   dependencies:
-    "@dezzyboy/sushiswap-bentobox-sdk" "file:../../Library/Caches/Yarn/v6/npm-@dezzyboy-sushiswap-kashi-sdk-1.0.1-canary.68-471bb847-76ae-4274-b586-4c57e80a9c0b-1660522049230/node_modules/@dezzyboy/bentobox-sdk"
-    "@dezzyboy/sushiswap-core-sdk" "file:../../Library/Caches/Yarn/v6/npm-@dezzyboy-sushiswap-kashi-sdk-1.0.1-canary.68-471bb847-76ae-4274-b586-4c57e80a9c0b-1660522049230/node_modules/@dezzyboy/core-sdk"
+    "@dezzyboy/jiodex-bentobox-sdk" "0.0.1-gwtestnet-v1"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwtestnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/contracts" "^5.4.0"
     "@ethersproject/providers" "^5.6.4"
     "@ethersproject/solidity" "^5.6.0"
     jsbi "^4.2.1"
 
-"@dezzyboy/sushiswap-limit-order-sdk@file:../sdk-new/packages/limit-order-sdk":
-  version "1.0.1-canary.78"
+"@dezzyboy/jiodex-limit-order-sdk@0.0.1-gwtestnet-v1":
+  version "0.0.1-gwtestnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/jiodex-limit-order-sdk/-/jiodex-limit-order-sdk-0.0.1-gwtestnet-v1.tgz#030c7de60887348e02700ee841cf3130b81eb623"
+  integrity sha512-1eF/Ne2WCU+Jw52dYZP6fm8oC/l5GPO/LsSuQISsnr0Yq7MNH9iZRa5Ds2X0vGOnzW60gD1VmKp29mbj4m3Oxg==
   dependencies:
-    "@dezzyboy/sushiswap-core-sdk" "file:../../Library/Caches/Yarn/v6/npm-@dezzyboy-sushiswap-limit-order-sdk-1.0.1-canary.78-89251a5d-0e3d-49d5-b0ba-766441b3b173-1660522049787/node_modules/@dezzyboy/core-sdk"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwtestnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/abstract-signer" "^5.4.0"
     "@ethersproject/bytes" "^5.4.0"
@@ -1326,10 +1334,12 @@
     eip-712 "^0.4.0"
     isomorphic-unfetch "^3.0.0"
 
-"@dezzyboy/trident-sdk@file:../sdk-new/packages/trident-sdk":
-  version "1.0.1-canary.105"
+"@dezzyboy/trident-sdk@0.0.1-gwtestnet-v1":
+  version "0.0.1-gwtestnet-v1"
+  resolved "https://registry.yarnpkg.com/@dezzyboy/trident-sdk/-/trident-sdk-0.0.1-gwtestnet-v1.tgz#79ed5e11213e45750148fba9f927258360a2365b"
+  integrity sha512-ojquqY1ZEzxyiKboKj0qy4Z/w825vte15XVcb+bfUGhLA7WGBn/o2a72sOr5PTXJoUENHvYp2JNyE61W4VAZqw==
   dependencies:
-    "@dezzyboy/sushiswap-core-sdk" "file:../../Library/Caches/Yarn/v6/npm-@dezzyboy-trident-sdk-1.0.1-canary.105-38fc1743-193a-43af-bc52-3bbea3d13eb6-1660522049824/node_modules/@dezzyboy/core-sdk"
+    "@dezzyboy/jiodex-core-sdk" "0.0.1-gwtestnet-v1"
     "@ethersproject/abi" "^5.4.0"
     "@ethersproject/bignumber" "^5.4.0"
     "@ethersproject/solidity" "^5.6.0"

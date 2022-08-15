@@ -8,7 +8,7 @@ import {
   Token,
   Trade as V2Trade,
   TradeType,
-} from '@dezzyboy/sushiswap-core-sdk'
+} from '@dezzyboy/jiodex-core-sdk'
 import { splitSignature } from '@ethersproject/bytes'
 import { DAI, USDC } from 'app/config/tokens'
 import { useSingleCallResult } from 'app/lib/hooks/multicall'

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Rebase, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, Rebase, Token } from '@dezzyboy/jiodex-core-sdk'
 import { computeConstantProductPoolAddress, Fee } from '@dezzyboy/trident-sdk'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { AddressZero } from '@ethersproject/constants'

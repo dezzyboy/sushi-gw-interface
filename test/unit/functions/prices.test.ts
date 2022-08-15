@@ -1,5 +1,5 @@
-import { ChainId, CurrencyAmount, JSBI, Token, TradeType } from '@dezzyboy/sushiswap-core-sdk'
-import { Pair, Route, Trade } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, CurrencyAmount, JSBI, Token, TradeType } from '@dezzyboy/jiodex-core-sdk'
+import { Pair, Route, Trade } from '@dezzyboy/jiodex-core-sdk'
 import { computeRealizedLPFeeAmount } from 'app/functions/prices'
 
 describe('prices', () => {

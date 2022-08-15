@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { getAverageBlockTime, getBlock, getMassBlocks } from 'app/services/graph/fetchers'
 import { addSeconds, getUnixTime, startOfHour, startOfMinute, startOfSecond, subDays, subWeeks } from 'date-fns'
 import stringify from 'fast-json-stable-stringify'

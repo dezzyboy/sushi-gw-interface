@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, CurrencyAmount, Token } from '@dezzyboy/jiodex-core-sdk'
 import { useAllTokenBalances } from 'app/state/wallet/hooks'
 
 // compare two token amounts with highest one coming first

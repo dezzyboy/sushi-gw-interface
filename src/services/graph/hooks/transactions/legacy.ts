@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { Transactions } from 'app/features/transactions/types'
 import { formatNumber } from 'app/functions'
 import { getTransactions } from 'app/services/graph/fetchers'

@@ -1,4 +1,4 @@
-import { ChainId, SUSHI } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, SUSHI } from '@dezzyboy/jiodex-core-sdk'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import Input from 'app/components/Input'

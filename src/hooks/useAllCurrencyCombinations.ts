@@ -1,4 +1,4 @@
-import { Currency, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, Token } from '@dezzyboy/jiodex-core-sdk'
 import { useActiveWeb3React } from 'app/services/web3'
 import flatMap from 'lodash/flatMap'
 import { useMemo } from 'react'

@@ -1,4 +1,4 @@
-import { Token } from '@dezzyboy/sushiswap-core-sdk'
+import { Token } from '@dezzyboy/jiodex-core-sdk'
 import HeadlessUiModal from 'app/components/Modal/HeadlessUIModal'
 import React, { FC } from 'react'
 

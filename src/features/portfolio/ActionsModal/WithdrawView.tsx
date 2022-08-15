@@ -1,7 +1,7 @@
+import { ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { ArrowDownIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ZERO } from '@dezzyboy/sushiswap-core-sdk'
 import AssetInput from 'app/components/AssetInput'
 import Button from 'app/components/Button'
 import { WalletIcon } from 'app/components/Icon'

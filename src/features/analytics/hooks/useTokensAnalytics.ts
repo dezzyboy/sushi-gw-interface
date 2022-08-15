@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { useBentoStrategies, useNativePrice, useOneDayBlock, useOneWeekBlock, useTokens } from 'app/services/graph'
 import { useEffect, useMemo, useState } from 'react'
 

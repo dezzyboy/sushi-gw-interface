@@ -1,4 +1,4 @@
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId } from '@dezzyboy/jiodex-core-sdk'
 import { useActiveWeb3React } from 'app/services/web3'
 import stringify from 'fast-json-stable-stringify'
 import useSWR, { SWRConfiguration } from 'swr'

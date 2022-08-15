@@ -1,4 +1,4 @@
-import { Currency, Percent, Trade, TradeType } from '@dezzyboy/sushiswap-core-sdk'
+import { Currency, Percent, Trade, TradeType } from '@dezzyboy/jiodex-core-sdk'
 import { Trade as TridentTrade } from '@dezzyboy/trident-sdk'
 import { useAppSelector } from 'app/state/hooks'
 import { selectSlippageWithDefault } from 'app/state/slippage/slippageSlice'

@@ -1,7 +1,7 @@
+import { ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { QuestionMarkCircleIcon as SolidQuestionMarkCircleIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ZERO } from '@dezzyboy/sushiswap-core-sdk'
 import QuestionHelper from 'app/components/QuestionHelper'
 import Typography from 'app/components/Typography'
 import AuctionStatsSkeleton from 'app/features/miso/AuctionStats/AuctionStatsSkeleton'

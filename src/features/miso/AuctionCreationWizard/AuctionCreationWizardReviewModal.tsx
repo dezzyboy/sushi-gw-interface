@@ -1,7 +1,7 @@
+import { CHAIN_KEY, CurrencyAmount, JSBI, Percent } from '@dezzyboy/jiodex-core-sdk'
 import { parseUnits } from '@ethersproject/units'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CHAIN_KEY, CurrencyAmount, JSBI, Percent } from '@dezzyboy/sushiswap-core-sdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import LoadingCircle from 'app/animation/loading-circle.json'
 import HeadlessUIModal from 'app/components/Modal/HeadlessUIModal'

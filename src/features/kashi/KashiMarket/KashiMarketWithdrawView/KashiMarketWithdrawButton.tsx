@@ -1,7 +1,7 @@
+import { Currency, CurrencyAmount, KASHI_ADDRESS, ZERO } from '@dezzyboy/jiodex-core-sdk'
 import { Signature } from '@ethersproject/bytes'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, KASHI_ADDRESS, ZERO } from '@dezzyboy/sushiswap-core-sdk'
 import Button from 'app/components/Button'
 import Typography from 'app/components/Typography'
 import { KashiMarketWithdrawReviewModal, useKashiMarket } from 'app/features/kashi/KashiMarket'

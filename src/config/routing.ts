@@ -1,5 +1,5 @@
 // a list of tokens by chain
-import { ChainId, SUSHI, Token, WNATIVE } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, SUSHI, Token, WNATIVE } from '@dezzyboy/jiodex-core-sdk'
 
 import * as AVALANCHE from './tokens/avalanche'
 import * as BSC from './tokens/bsc'

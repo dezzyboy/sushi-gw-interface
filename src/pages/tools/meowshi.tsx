@@ -1,4 +1,4 @@
-import { ChainId, Currency, SUSHI, Token } from '@dezzyboy/sushiswap-core-sdk'
+import { ChainId, Currency, SUSHI, Token } from '@dezzyboy/jiodex-core-sdk'
 import { ArrowDownIcon, InformationCircleIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
