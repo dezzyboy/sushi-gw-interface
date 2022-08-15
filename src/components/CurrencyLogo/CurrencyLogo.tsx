@@ -43,24 +43,24 @@ export const getCurrencyLogoUrls = (currency: Currency): string[] => {
         currency.wrapped.address
       }.jpg`
     )
-    urls.push(
-      // @ts-ignore TYPE NEEDS FIXING
-      `https://raw.githubusercontent.com/dezzyboy/assets/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
-        currency.wrapped.address
-      }/logo.png`
-    )
-    urls.push(
-      // @ts-ignore TYPE NEEDS FIXING
-      `https://raw.githubusercontent.com/dezzyboy/logos/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
-        currency.wrapped.address
-      }/logo.svg`
-    )
-    urls.push(
-      // @ts-ignore TYPE NEEDS FIXING
-      `https://raw.githubusercontent.com/jioswap/assets/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
-        currency.wrapped.address
-      }/logo.png`
-    )
+    // urls.push(
+    //   // @ts-ignore TYPE NEEDS FIXING
+    //   `https://raw.githubusercontent.com/dezzyboy/assets/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
+    //     currency.wrapped.address
+    //   }/logo.png`
+    // )
+    // urls.push(
+    //   // @ts-ignore TYPE NEEDS FIXING
+    //   `https://raw.githubusercontent.com/dezzyboy/logos/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
+    //     currency.wrapped.address
+    //   }/logo.svg`
+    // )
+    // urls.push(
+    //   // @ts-ignore TYPE NEEDS FIXING
+    //   `https://raw.githubusercontent.com/jioswap/assets/master/blockchains/${BLOCKCHAIN[currency.chainId]}/assets/${
+    //     currency.wrapped.address
+    //   }/logo.png`
+    // )
     urls.push(``)
   }
   return urls
@@ -81,7 +81,7 @@ const PalmLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/p
 const MovrLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/movr.jpg'
 const FuseLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/fuse.jpg'
 const TelosLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/telos.jpg'
-// const GodwokenLogo = 'https://www.jioswap.finance/img/nervos-network-ckb-logo.png'
+const GodwokenLogo = 'https://raw.githubusercontent.com/dezzyboy/logos/main/token/ckb.jpg'
 
 const LOGO: Record<ChainId, string> = {
   [ChainId.ETHEREUM]: EthereumLogo,
@@ -105,7 +105,7 @@ const LOGO: Record<ChainId, string> = {
   [ChainId.HARMONY_TESTNET]: HarmonyLogo,
   [ChainId.OKEX]: OKExLogo,
   [ChainId.OKEX_TESTNET]: OKExLogo,
-  [ChainId.GODWOKEN]: EthereumLogo,
+  [ChainId.GODWOKEN]: GodwokenLogo,
   [ChainId.ARBITRUM_TESTNET]: EthereumLogo,
   [ChainId.CELO]: CeloLogo,
   [ChainId.PALM]: PalmLogo,

@@ -1,6 +1,6 @@
+import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import { t } from '@lingui/macro'
 import { Trans, useLingui } from '@lingui/react'
-import { ChainId } from '@dezzyboy/sushiswap-core-sdk'
 import HeadlessUIModal from 'app/components/Modal/HeadlessUIModal'
 import NavLink from 'app/components/NavLink'
 import Typography from 'app/components/Typography'
@@ -39,8 +39,8 @@ const Component: FC<NetworkGuardProps> = ({ children, feature, asModal = true })
 
   const content = (
     <div className="flex justify-center lg:mt-[200px]">
-      <div className="flex flex-col gap-5 justify-center p-4 mt-10 lg:mt-0">
-        <Typography variant="h1" className="max-w-2xl text-white text-center" weight={700}>
+      <div className="flex flex-col justify-center gap-5 p-4 mt-10 lg:mt-0">
+        <Typography variant="h1" className="max-w-2xl text-center text-white" weight={700}>
           {/*@ts-ignore TYPE NEEDS FIXING*/}
           {i18n._(t`This feature is not yet supported on the ${NETWORK_LABEL[chainId]} network`)}
         </Typography>
@@ -54,14 +54,14 @@ const Component: FC<NetworkGuardProps> = ({ children, feature, asModal = true })
         <div className="grid grid-cols-[repeat(2,_100px)] md:grid-cols-[repeat(4,_100px)] gap-y-10 justify-center">
           {supportedNetworks.map((key: string, idx: number) => (
             <button
-              className="text-primary hover:text-white flex items-center flex-col gap-2 justify-center"
+              className="flex flex-col items-center justify-center gap-2 text-primary hover:text-white"
               key={idx}
               onClick={() => {
                 // @ts-ignore TYPE NEEDS FIXING
                 const params = SUPPORTED_NETWORKS[key]
                 cookie.set('chainId', key)
-                if (key === ChainId.ETHEREUM.toString()) {
-                  library?.send('wallet_switchEthereumChain', [{ chainId: '0x1' }, account])
+                if (key === ChainId.GODWOKEN.toString()) {
+                  library?.send('wallet_switchEthereumChain', [{ chainId: '0x116e9' }, account])
                 } else if (key === ChainId.KOVAN.toString()) {
                   library?.send('wallet_switchEthereumChain', [{ chainId: '0x2A' }, account])
                 } else {

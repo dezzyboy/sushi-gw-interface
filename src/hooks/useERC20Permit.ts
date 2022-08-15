@@ -1,4 +1,3 @@
-import { splitSignature } from '@ethersproject/bytes'
 import {
   Currency,
   CurrencyAmount,
@@ -10,6 +9,7 @@ import {
   Trade as V2Trade,
   TradeType,
 } from '@dezzyboy/sushiswap-core-sdk'
+import { splitSignature } from '@ethersproject/bytes'
 import { DAI, USDC } from 'app/config/tokens'
 import { useSingleCallResult } from 'app/lib/hooks/multicall'
 import { useActiveWeb3React } from 'app/services/web3'
@@ -284,7 +284,7 @@ export function useERC20Permit(
 
 const REMOVE_V2_LIQUIDITY_PERMIT_INFO: PermitInfo = {
   version: '1',
-  name: 'SushiSwap LP Token',
+  name: 'Jiodex LP Token',
   type: PermitType.AMOUNT,
 }
 

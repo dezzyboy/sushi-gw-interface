@@ -11,3 +11,5 @@ export const DAI = new Token(
   'Dai Stablecoin'
 )
 export const JIO = new Token(ChainId.GODWOKEN, '0xb5727223892A38d2Ef7Ca7365dcaC9970A63E82e', 18, 'JIO', 'Jioswap Dao')
+
+export const BNB = new Token(ChainId.GODWOKEN, '0xFB60eBF591bc5e363A24b67518339F0015Ad02eE', 18, 'BNB', 'Wrapped BNB')

@@ -9,6 +9,7 @@ const COMPOUND_LIST = 'https://raw.githubusercontent.com/compound-finance/token-
 const GEMINI_LIST = 'https://www.gemini.com/uniswap/manifest.json'
 const KLEROS_LIST = 't2crtokens.eth'
 export const GODWOKEN_LIST = 'https://raw.githubusercontent.com/dezzyboy/token-list/main/jio.tokenlist.json'
+export const GODWOKEN_LIST2 = 'https://raw.githubusercontent.com/jioswap/token-list/main/jio.tokenlist.json'
 export const OPTIMISM_LIST = 'https://static.optimism.io/optimism.tokenlist.json'
 const SET_LIST = 'https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json'
 const UMA_LIST = 'https://umaproject.org/uma.tokenlist.json'
@@ -37,6 +38,7 @@ const DEFAULT_LIST_OF_LISTS_TO_DISPLAY: string[] = [
   // NFTX_LIST,
   // DHEDGE_LIST,
   GODWOKEN_LIST,
+  GODWOKEN_LIST2,
 ]
 
 export const DEFAULT_LIST_OF_LISTS: string[] = [
