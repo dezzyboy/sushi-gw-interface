@@ -32,7 +32,7 @@ export const dCKB = new Token(
 
 export const BNB = new Token(
   ChainId.GODWOKEN,
-  '0xbadb9b25150ee75bb794198658a4d0448e43e528',
+  '0xBAdb9b25150Ee75bb794198658A4D0448e43E528',
   18,
   'BNB|bsc',
   'BNB (Via Force Bridge From BSC)'
