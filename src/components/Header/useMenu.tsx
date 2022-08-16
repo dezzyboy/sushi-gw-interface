@@ -79,6 +79,11 @@ const useMenu: UseMenu = () => {
     ]
 
     const legacy = [...trade, ...liquidity]
+    menu.push({
+      key: 'jioswap',
+      title: i18n._(t`Go to StableSwap`),
+      link: 'https://staging.jioswap.finance',
+    })
 
     if (featureEnabled(Feature.TRIDENT, chainId)) {
       menu.push({
