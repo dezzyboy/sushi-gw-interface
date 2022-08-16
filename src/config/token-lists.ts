@@ -4,11 +4,12 @@ const NFTX_LIST = 'https://nftx.ethereumdb.com/v2/tokenlist/'
 const SYNTHETIX_LIST = 'synths.snx.eth'
 const AAVE_LIST = 'tokenlist.aave.eth'
 const CMC_ALL_LIST = 'https://api.coinmarketcap.com/data-api/v3/uniswap/all.json'
-const COINGECKO_LIST = 'https://tokens.coingecko.com/uniswap/all.json'
+const COINGECKO_LIST = 'https://token-list-six.vercel.app/jio.tokenlist.json'
 const COMPOUND_LIST = 'https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json'
 const GEMINI_LIST = 'https://www.gemini.com/uniswap/manifest.json'
 const KLEROS_LIST = 't2crtokens.eth'
-export const GODWOKEN_LIST = 'https://raw.githubusercontent.com/jioswap/token-list/main/jio.tokenlist.json'
+export const GODWOKEN_LIST = 'https://raw.githubusercontent.com/CoinshipDefi/token-list/main/jioswap.tokenlist.json'
+export const DEZZYBOY_LIST = 'https://token-list-six.vercel.app/jio.tokenlist.json'
 export const OPTIMISM_LIST = 'https://static.optimism.io/optimism.tokenlist.json'
 const SET_LIST = 'https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json'
 const UMA_LIST = 'https://umaproject.org/uma.tokenlist.json'
@@ -36,6 +37,7 @@ const DEFAULT_LIST_OF_LISTS_TO_DISPLAY: string[] = [
   // ROLL_LIST,
   // NFTX_LIST,
   // DHEDGE_LIST,
+  // DEZZYBOY_LIST,
   GODWOKEN_LIST,
 ]
 
