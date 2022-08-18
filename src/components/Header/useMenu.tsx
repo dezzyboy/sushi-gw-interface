@@ -82,7 +82,7 @@ const useMenu: UseMenu = () => {
     menu.push({
       key: 'jioswap',
       title: i18n._(t`Go to StableSwap`),
-      link: 'https://staging.jioswap.finance',
+      link: 'https://app.jioswap.finance',
     })
 
     if (featureEnabled(Feature.TRIDENT, chainId)) {
