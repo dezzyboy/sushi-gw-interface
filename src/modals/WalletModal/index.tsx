@@ -249,7 +249,7 @@ const WalletModal: FC<WalletModal> = ({ pendingTransactions, confirmedTransactio
             <Typography variant="xs" weight={700}>
               {error instanceof UnsupportedChainIdError
                 ? i18n._(
-                    t`oops 🙊 Looks like we currently do not support  this chain 😞 Please connect to the appropriate network.`
+                    t`oops 🙊 Looks like we currently do not support  this chain 😞 Please connect to GODWOKEN or other supported network.`
                   )
                 : i18n._(t`Error connecting. Try refreshing the page.`)}
             </Typography>
