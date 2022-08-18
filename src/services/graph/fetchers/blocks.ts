@@ -13,7 +13,7 @@ export const BLOCKS = {
   [ChainId.HARMONY]: 'sushiswap/harmony-blocks',
   [ChainId.AVALANCHE]: 'matthewlilley/avalanche-blocks',
   [ChainId.CELO]: 'ubeswap/celo-blocks',
-  [ChainId.GODWOKEN]: 'sushiswap/godwoken-blocks',
+  [ChainId.GODWOKEN]: 'jiodex/godwoken-blocks',
   [ChainId.OKEX]: 'okexchain-blocks/oec',
   [ChainId.HECO]: 'hecoblocks/heco',
   [ChainId.MOONRIVER]: 'sushiswap/moonriver-blocks',
