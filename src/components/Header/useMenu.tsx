@@ -258,11 +258,11 @@ const useMenu: UseMenu = () => {
           title: 'Dashboard',
           link: `/analytics/dashboard`,
         },
-        {
-          key: 'xsushi',
-          title: 'xSUSHI',
-          link: '/analytics/xsushi',
-        },
+        // {
+        //   key: 'xsushi',
+        //   title: 'xSUSHI',
+        //   link: '/analytics/xsushi',
+        // },
         {
           key: 'tokens',
           title: 'Tokens',

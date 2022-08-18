@@ -27,7 +27,7 @@ export const EXCHANGE = {
   [ChainId.HARMONY]: 'sushiswap/harmony-exchange',
   [ChainId.AVALANCHE]: 'sushiswap/avalanche-exchange',
   [ChainId.CELO]: 'jiro-ono/sushitestsubgraph',
-  // [ChainId.GODWOKEN]: 'sushiswap/arbitrum-exchange',
+  [ChainId.GODWOKEN]: 'jiodex/godwoken-exchange',
   [ChainId.MOONRIVER]: 'sushiswap/moonriver-exchange',
   [ChainId.OKEX]: 'okex-exchange/oec',
   [ChainId.HECO]: 'heco-exchange/heco',
