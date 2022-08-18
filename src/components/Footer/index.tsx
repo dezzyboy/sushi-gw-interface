@@ -62,9 +62,9 @@ const Footer = () => {
                 {i18n._(t`Liquidity Pools`)}
               </Typography>
             </Link>
-            <a href="https://staging.jioswap.finance" target="_blank" rel="noreferrer">
+            <a href="https://app.jioswap.finance" target="_blank" rel="noreferrer">
               <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
-                {i18n._(t`Jio StableCoin Swap`)}
+                {i18n._(t`Jio Stable Swap`)}
               </Typography>
             </a>
             {/* <Link href="/kashi" passHref={true}>
