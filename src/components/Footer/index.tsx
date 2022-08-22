@@ -35,8 +35,9 @@ const Footer = () => {
               </Typography>
             </div>
             <Typography variant="xs" className="text-low-emphesis">
-              {i18n._(t`Our community is building a comprehensive decentralized trading platform for the future of finance. Join
-              us!`)}
+              {i18n._(
+                t`Jiodex is a fork of sushiswap with added support for Godwoken mainnet network and other chains currently not supported by the sushi team`
+              )}
             </Typography>
             <div className="flex items-center gap-4">
               <a href="https://twitter.com/jioswap" target="_blank" rel="noreferrer">
